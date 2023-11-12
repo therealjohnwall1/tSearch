@@ -6,7 +6,7 @@
 import scrapy
 
 
-class MainspiderItem(scrapy.Item):
+class TspiderItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass

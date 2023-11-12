@@ -1,4 +1,4 @@
-# Scrapy settings for mainspider project
+# Scrapy settings for tSpider project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,18 +7,22 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = "mainspider"
+BOT_NAME = "tSpider"
 
-SPIDER_MODULES = ["mainspider.spiders"]
-NEWSPIDER_MODULE = "mainspider.spiders"
+SPIDER_MODULES = ["tSpider.spiders"]
+NEWSPIDER_MODULE = "tSpider.spiders"
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = "mainspider (+http://www.yourdomain.com)"
+#USER_AGENT = "tSpider (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
+SCRAPEOPS_API_KEY = 'e47782af-33fd-4a06-92da-2c0ffa6f6945' 
+SCRAPEOPS_FAKE_USER_AGENT_ENDPOINT = 'https://headers.scrapeops.io/v1/user-agents'
+SCRAPEOPS_FAKE_USER_AGENT_ENABLED = True
+SCRAPEOPS_NUM_RESULTS = 5
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
@@ -45,14 +49,15 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    "mainspider.middlewares.MainspiderSpiderMiddleware": 543,
+#    "tSpider.middlewares.TspiderSpiderMiddleware": 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
-#    "mainspider.middlewares.MainspiderDownloaderMiddleware": 543,
-#}
+DOWNLOADER_MIDDLEWARES = {
+#    "tSpider.middlewares.TspiderDownloaderMiddleware": 543,
+    'tSpider.middlewares.ScrapeOpsFakeBrowserHeaderAgentMiddleware': 400,
+}
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
@@ -63,7 +68,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    "mainspider.pipelines.MainspiderPipeline": 300,
+#    "tSpider.pipelines.TspiderPipeline": 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
