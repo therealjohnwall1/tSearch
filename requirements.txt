@@ -1,4 +1,6 @@
 Scrapy
 flask
-fake-useragent
+scrapy-rotating-proxies
+beautifulsoup4
+lxml
 

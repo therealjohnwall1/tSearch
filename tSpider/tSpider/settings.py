@@ -57,6 +57,13 @@ SCRAPEOPS_NUM_RESULTS = 5
 DOWNLOADER_MIDDLEWARES = {
 #    "tSpider.middlewares.TspiderDownloaderMiddleware": 543,
     'tSpider.middlewares.ScrapeOpsFakeBrowserHeaderAgentMiddleware': 400,
+    
+}
+ROTATING_PROXY_LIST = {
+    '182.160.125.148',
+    '49.51.98.98', 
+    '69.163.165.180',
+    '112.87.5.245', 
 }
 
 # Enable or disable extensions
