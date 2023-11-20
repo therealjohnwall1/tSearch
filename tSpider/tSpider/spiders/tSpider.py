@@ -1,6 +1,7 @@
 from pathlib import Path
 import scrapy
 from fake_useragent import UserAgent
+from bs4 import BeautifulSoup
 class mainSpider(scrapy.Spider):
     name = "tSpider"
     allowed_domains = []
@@ -18,8 +19,15 @@ class mainSpider(scrapy.Spider):
         fileName = response.url.split("/")[-2] + '.html'
         route = "../util/storage/" + fileName
         Path(route).write_bytes(response.body)
-        for link in self.link_extractor(response):
-            yield scrapy.Request(url=link, callback=self.parse)
+        for link in response.css('a::attr(href)').getall():
+            self.allowed_domains.append(link)
+            yield scrapy.Request(url=link, callback=self.parseOther)
+
+    def parseOther(self,response):
+        fileName = response.url.split("/")[-2] + '.html'
+        route = "../util/storage/" + fileName
+        Path(route).write_bytes(response.body)
+
 
 
 
