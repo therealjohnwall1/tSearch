@@ -1,6 +1,5 @@
-make spider chase down other links
-    add resricted and allowed domains
-    try on the pratice files
+try and catch when putting http or https, make sure it skips if cant receive
+
 when project finish, potential in buying rotating proxy,
 create a search algorithim, start of using wikipedia
 Start using vpn if scraping ***IMPORTANT**
