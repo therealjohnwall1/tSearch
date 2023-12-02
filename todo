@@ -1,10 +1,6 @@
-try and catch when putting http or https, make sure it skips if cant receive
+multithread the url checker
+come up with index layout
 
-when project finish, potential in buying rotating proxy,
-create a search algorithim, start of using wikipedia
-Start using vpn if scraping ***IMPORTANT**
-try out proxy lists
-finish webscraper so it keeps going to the subpages and downloading
-try on wikipedia
-create index for html to display all words and frequency, proportion
-#tfdf vector
+look into a paid rotating proxy, free shit dont work
+make aws or some cloud storage for index
+start working on closest comparison too

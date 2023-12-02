@@ -1,4 +1,4 @@
-from grabber import database
+from indexer.grabber import database
 
 starter = database()
 starter.grab()

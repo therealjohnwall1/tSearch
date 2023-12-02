@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+  <head>
+    <!-- Google Tag Manager -->
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-MRM3HTK');</script>
+		<!-- End Google Tag Manager -->
+    <meta charset="UTF-8" /><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"NRJS-22c5e25a4b8fb6c11ef","applicationID":"1298096896","transactionName":"ZVABYBQEXxBSVkQIClwaImc2SkUGQVhDTApUGBBRFBNYAFYaWQ8BV01NVRUVSQ==","queueTime":1,"applicationTime":35,"agent":"","atts":""}</script><script type="text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:["bam.nr-data.net"]},distributed_tracing:{enabled:true}};(window.NREUM||(NREUM={})).loader_config={agentID:"1386102003",accountID:"2685387",trustKey:"2685387",xpid:"VgAPVFVbDxABVlhaBwgBXl0H",licenseKey:"NRJS-22c5e25a4b8fb6c11ef",applicationID:"1298096896"};;/*! For license information please see nr-loader-spa-1.248.0.min.js.LICENSE.txt */
+(()=>{var e,t,r={234:(e,t,r)=>{"use strict";r.d(t,{P_:()=>g,Mt:()=>v,C5:()=>s,DL:()=>A,OP:()=>D,lF:()=>N,Yu:()=>x,Dg:()=>m,CX:()=>c,GE:()=>w,sU:()=>j});var n=r(8632),i=r(9567);const o={beacon:n.ce.beacon,errorBeacon:n.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.D)(t,o);const r=(0,n.ek)(e);r&&(r.info=a[e])}const u=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var d=r(7056),l=r(50);const f=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{feature_flags:[],proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,sampling_rate:50,error_sampling_rate:50,collect_fonts:!1,inline_images:!1,inline_stylesheet:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){u(t)?e.mask_selector=t+",[data-nr-mask]":null===t?e.mask_selector=t:(0,l.Z)("An invalid session_replay.mask_selector was provided and will not be used",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){u(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.Z)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.Z)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},h={},p="All configuration objects require an agent identifier!";function g(e){if(!e)throw new Error(p);if(!h[e])throw new Error("Configuration for ".concat(e," was never set"));return h[e]}function m(e,t){if(!e)throw new Error(p);h[e]=(0,i.D)(t,f());const r=(0,n.ek)(e);r&&(r.init=h[e])}function v(e,t){if(!e)throw new Error(p);var r=g(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const b={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},y={};function A(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!y[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return y[e]}function w(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");y[e]=(0,i.D)(t,b);const r=(0,n.ek)(e);r&&(r.loader_config=y[e])}const x=(0,n.mF)().o;var E=r(385),_=r(6818);const T={buildEnv:_.Re,customTransaction:void 0,disabled:!1,distMethod:_.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(E._A?.performance?.timeOrigin||E._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+E._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof E._A.XMLHttpRequest?.prototype?.addEventListener,version:_.q4,denyList:void 0},S={};function D(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!S[e])throw new Error("Runtime for ".concat(e," was never set"));return S[e]}function j(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");S[e]=(0,i.D)(t,T);const r=(0,n.ek)(e);r&&(r.runtime=S[e])}function N(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,r)=>{"use strict";r.d(t,{D:()=>i});var n=r(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,n.Z)("Setting a Configurable requires a model to set its initial properties");const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(r).length?e:r;for(let a in o)if(void 0!==e[a])try{Array.isArray(e[a])&&Array.isArray(t[a])?r[a]=Array.from(new Set([...e[a],...t[a]])):"object"==typeof e[a]&&"object"==typeof t[a]?r[a]=i(e[a],t[a]):r[a]=e[a]}catch(e){(0,n.Z)("An error occurred while setting a property of a Configurable",e)}return r}catch(e){(0,n.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,r)=>{"use strict";r.d(t,{Re:()=>i,gF:()=>o,lF:()=>a,q4:()=>n});const n="1.248.0",i="PROD",o="CDN",a="2.0.0-alpha.11"},385:(e,t,r)=>{"use strict";r.d(t,{FN:()=>c,IF:()=>l,LW:()=>a,Nk:()=>h,Tt:()=>u,_A:()=>o,cv:()=>p,iS:()=>s,il:()=>n,ux:()=>d,v6:()=>i,w1:()=>f});const n="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=n?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),a="complete"===o?.document?.readyState,s=Boolean("hidden"===o?.document?.visibilityState),c=""+o?.location,u=/iPad|iPhone|iPod/.test(o.navigator?.userAgent),d=u&&"undefined"==typeof SharedWorker,l=(()=>{const e=o.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);return Array.isArray(e)&&e.length>=2?+e[1]:0})(),f=Boolean(n&&window.document.documentMode),h=!!o.navigator?.sendBeacon,p=Math.floor(o?.performance?.timeOrigin||o?.performance?.timing?.navigationStart||Date.now())},1117:(e,t,r)=>{"use strict";r.d(t,{w:()=>o});var n=r(50);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,n.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,r)=>{"use strict";r.d(t,{L:()=>d,R:()=>c});var n=r(8325),i=r(1284),o=r(4322),a=r(3325);const s={};function c(e,t){const r={staged:!1,priority:a.p[t]||0};u(e),s[e].get(t)||s[e].set(t,r)}function u(e){e&&(s[e]||(s[e]=new Map))}function d(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(u(e),!e||!s[e].get(t))return a(t);s[e].get(t).staged=!0;const r=[...s[e]];function a(t){const r=e?n.ee.get(e):n.ee,a=o.X.handlers;if(r.backlog&&a){var s=r.backlog[t],c=a[t];if(c){for(var u=0;s&&u<s.length;++u)l(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,r){r[0].on(e,r[1])}))}))}delete a[t],r.backlog[t]=null,r.emit("drain-"+t,[])}}r.every((e=>{let[t,r]=e;return r.staged}))&&(r.sort(((e,t)=>e[1].priority-t[1].priority)),r.forEach((t=>{let[r]=t;s[e].delete(r),a(r)})))}function l(e,t){var r=e[1];(0,i.D)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],o=e[3],a=e[2];i.apply(o,a)}}))}},8325:(e,t,r)=>{"use strict";r.d(t,{A:()=>c,ee:()=>u});var n=r(8632),i=r(2210),o=r(234);class a{constructor(e){this.contextId=e}}var s=r(3117);const c="nr@context:".concat(s.a),u=function e(t,r){var n={},s={},d={},f=!1;try{f=16===r.length&&(0,o.OP)(r).isolatedBacklog}catch(e){}var h={on:g,addEventListener:g,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,o){!1!==o&&(o=!0);if(u.aborted&&!i)return;t&&o&&t.emit(e,r,n);for(var a=p(n),c=m(e),d=c.length,l=0;l<d;l++)c[l].apply(a,r);var f=b()[s[e]];f&&f.push([h,e,r,a]);return a},get:v,listeners:m,context:p,buffer:function(e,t){const r=b();if(t=t||"feature",h.aborted)return;Object.entries(e||{}).forEach((e=>{let[n,i]=e;s[i]=t,t in r||(r[t]=[])}))},abort:l,aborted:!1,isBuffering:function(e){return!!b()[s[e]]},debugId:r,backlog:f?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return h;function p(e){return e&&e instanceof a?e:e?(0,i.X)(e,c,(()=>new a(c))):new a(c)}function g(e,t){n[e]=m(e).concat(t)}function m(e){return n[e]||[]}function v(t){return d[t]=d[t]||e(h,t)}function b(){return h.backlog}}(void 0,"globalEE"),d=(0,n.fP)();function l(){u.aborted=!0,u.backlog={}}d.ee||(d.ee=u)},5546:(e,t,r)=>{"use strict";r.d(t,{E:()=>n,p:()=>i});var n=r(8325).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4322:(e,t,r)=>{"use strict";r.d(t,{X:()=>o});var n=r(5546);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},3239:(e,t,r)=>{"use strict";r.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var n=r(385);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};n._A.addEventListener("test",null,e),n._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(r,n))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(r,n))}},3117:(e,t,r)=>{"use strict";r.d(t,{a:()=>n});const n=(0,r(4402).Rl)()},4402:(e,t,r)=>{"use strict";r.d(t,{Ht:()=>u,M:()=>c,Rl:()=>a,ky:()=>s});var n=r(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n._A?.crypto||n._A?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?o(t,++r).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=n._A?.crypto||n._A?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(31)));const a=[];for(var s=0;s<e;s++)a.push(o(r,++i).toString(16));return a.join("")}function c(){return s(16)}function u(){return s(32)}},7056:(e,t,r)=>{"use strict";r.d(t,{Bq:()=>n,Hb:()=>o,oD:()=>i});const n="NRBA",i=144e5,o=18e5},7894:(e,t,r)=>{"use strict";function n(){return Math.round(performance.now())}r.d(t,{z:()=>n})},7243:(e,t,r)=>{"use strict";r.d(t,{e:()=>i});var n=r(385);function i(e){if(0===(e||"").indexOf("data:"))return{protocol:"data"};try{const t=new URL(e,location.href),r={port:t.port,hostname:t.hostname,pathname:t.pathname,search:t.search,protocol:t.protocol.slice(0,t.protocol.indexOf(":")),sameOrigin:t.protocol===n._A?.location?.protocol&&t.host===n._A?.location?.host};return r.port&&""!==r.port||("http:"===t.protocol&&(r.port="80"),"https:"===t.protocol&&(r.port="443")),r.pathname&&""!==r.pathname?r.pathname.startsWith("/")||(r.pathname="/".concat(r.pathname)):r.pathname="/",r}catch(e){return{}}}},50:(e,t,r)=>{"use strict";function n(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}r.d(t,{Z:()=>n})},2825:(e,t,r)=>{"use strict";r.d(t,{N:()=>d,T:()=>l});var n=r(8325),i=r(5546),o=r(3325),a=r(385);const s="newrelic";const c={stn:[o.D.sessionTrace],err:[o.D.jserrors,o.D.metrics],ins:[o.D.pageAction],spa:[o.D.spa],sr:[o.D.sessionReplay,o.D.sessionTrace]},u=new Set;function d(e,t){const r=n.ee.get(t);e&&"object"==typeof e&&(u.has(t)||(Object.entries(e).forEach((e=>{let[t,n]=e;c[t]?c[t].forEach((e=>{n?(0,i.p)("feat-"+t,[],void 0,e,r):(0,i.p)("block-"+t,[],void 0,e,r),(0,i.p)("rumresp-"+t,[Boolean(n)],void 0,e,r)})):n&&(0,i.p)("feat-"+t,[],void 0,void 0,r),l[t]=Boolean(n)})),Object.keys(c).forEach((e=>{void 0===l[e]&&(c[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,r))),l[e]=!1)})),u.add(t),function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};try{a._A.dispatchEvent(new CustomEvent(s,{detail:e}))}catch(e){}}({loaded:!0})))}const l={}},2210:(e,t,r)=>{"use strict";r.d(t,{X:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,r)=>{"use strict";r.d(t,{D:()=>n});const n=(e,t)=>Object.entries(e||{}).map((e=>{let[r,n]=e;return t(r,n)}))},4351:(e,t,r)=>{"use strict";r.d(t,{P:()=>o});var n=r(8325);const i=()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,r)=>{"use strict";r.d(t,{KB:()=>a,b2:()=>o});var n=r(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,n.bP)("load",e,t)}function a(e){if(i())return e();(0,n.iz)("DOMContentLoaded",e)}},8632:(e,t,r)=>{"use strict";r.d(t,{EZ:()=>d,ce:()=>o,ek:()=>u,fP:()=>a,gG:()=>l,h5:()=>c,mF:()=>s});var n=r(7894),i=r(385);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t){let r=a();r.initializedAgents??={},t.initializedAt={ms:(0,n.z)(),date:new Date},r.initializedAgents[e]=t}function u(e){let t=a();return t.initializedAgents?.[e]}function d(e,t){a()[e]=t}function l(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},7956:(e,t,r)=>{"use strict";r.d(t,{N:()=>i});var n=r(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],r=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,n.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),r,i)}},1214:(e,t,r)=>{"use strict";r.d(t,{em:()=>b,u5:()=>D,QU:()=>C,_L:()=>I,Gm:()=>H,Lg:()=>L,BV:()=>G,Kf:()=>K});var n=r(8325),i=r(3117);const o="nr@original:".concat(i.a);var a=Object.prototype.hasOwnProperty,s=!1;function c(e,t){return e||(e=n.ee),r.inPlace=function(e,t,n,i,o){n||(n="");const a="-"===n.charAt(0);for(let s=0;s<t.length;s++){const c=t[s],u=e[c];d(u)||(e[c]=r(u,a?c+n:n,i,c,o))}},r.flag=o,r;function r(t,r,n,s,c){return d(t)?t:(r||(r=""),nrWrapper[o]=t,function(e,t,r){if(Object.defineProperty&&Object.keys)try{return Object.keys(e).forEach((function(r){Object.defineProperty(t,r,{get:function(){return e[r]},set:function(t){return e[r]=t,t}})})),t}catch(e){u([e],r)}for(var n in e)a.call(e,n)&&(t[n]=e[n])}(t,nrWrapper,e),nrWrapper);function nrWrapper(){var o,a,d,l;try{a=this,o=[...arguments],d="function"==typeof n?n(o,a):n||{}}catch(t){u([t,"",[o,a,s],d],e)}i(r+"start",[o,a,s],d,c);try{return l=t.apply(a,o)}catch(e){throw i(r+"err",[o,a,e],d,c),e}finally{i(r+"end",[o,a,l],d,c)}}}function i(r,n,i,o){if(!s||t){var a=s;s=!0;try{e.emit(r,n,i,t,o)}catch(t){u([t,r,n,i],e)}s=a}}}function u(e,t){t||(t=n.ee);try{t.emit("internal-error",e)}catch(e){}}function d(e){return!(e&&"function"==typeof e&&e.apply&&!e[o])}var l=r(2210),f=r(385);const h={},p=f._A.XMLHttpRequest,g="addEventListener",m="removeEventListener",v="nr@wrapped:".concat(n.A);function b(e){var t=function(e){return(e||n.ee).get("events")}(e);if(h[t.debugId]++)return t;h[t.debugId]=1;var r=c(t,!0);function i(e){r.inPlace(e,[g,m],"-",o)}function o(e,t){return e[1]}return"getPrototypeOf"in Object&&(f.il&&y(document,i),y(f._A,i),y(p.prototype,i)),t.on(g+"-start",(function(e,t){var n=e[1];if(null!==n&&("function"==typeof n||"object"==typeof n)){var i=(0,l.X)(n,v,(function(){var e={object:function(){if("function"!=typeof n.handleEvent)return;return n.handleEvent.apply(n,arguments)},function:n}[typeof n];return e?r(e,"fn-",null,e.name||"anonymous"):n}));this.wrapped=e[1]=i}})),t.on(m+"-start",(function(e){e[1]=this.wrapped||e[1]})),t}function y(e,t){let r=e;for(;"object"==typeof r&&!Object.prototype.hasOwnProperty.call(r,g);)r=Object.getPrototypeOf(r);for(var n=arguments.length,i=new Array(n>2?n-2:0),o=2;o<n;o++)i[o-2]=arguments[o];r&&t(r,...i)}var A="fetch-",w=A+"body-",x=["arrayBuffer","blob","json","text","formData"],E=f._A.Request,_=f._A.Response,T="prototype";const S={};function D(e){const t=function(e){return(e||n.ee).get("fetch")}(e);if(!(E&&_&&f._A.fetch))return t;if(S[t.debugId]++)return t;function r(e,r,i){var o=e[r];"function"==typeof o&&(e[r]=function(){var e,r=[...arguments],a={};t.emit(i+"before-start",[r],a),a[n.A]&&a[n.A].dt&&(e=a[n.A].dt);var s=o.apply(this,r);return t.emit(i+"start",[r,e],s),s.then((function(e){return t.emit(i+"end",[null,e],s),e}),(function(e){throw t.emit(i+"end",[e],s),e}))})}return S[t.debugId]=1,x.forEach((e=>{r(E[T],e,w),r(_[T],e,w)})),r(f._A,"fetch",A),t.on(A+"end",(function(e,r){var n=this;if(r){var i=r.headers.get("content-length");null!==i&&(n.rxSize=i),t.emit(A+"done",[null,r],n)}else t.emit(A+"done",[e],n)})),t}const j={},N=["pushState","replaceState"];function C(e){const t=function(e){return(e||n.ee).get("history")}(e);return!f.il||j[t.debugId]++||(j[t.debugId]=1,c(t).inPlace(window.history,N,"-")),t}var R=r(3239);const O={},P=["appendChild","insertBefore","replaceChild"];function I(e){const t=function(e){return(e||n.ee).get("jsonp")}(e);if(!f.il||O[t.debugId])return t;O[t.debugId]=!0;var r=c(t),i=/[?&](?:callback|cb)=([^&#]+)/,o=/(.*)\.([^.]+)/,a=/^(\w+)(\.|$)(.*)$/;function s(e,t){if(!e)return t;const r=e.match(a),n=r[1];return s(r[3],t[n])}return r.inPlace(Node.prototype,P,"dom-"),t.on("dom-start",(function(e){!function(e){if(!e||"string"!=typeof e.nodeName||"script"!==e.nodeName.toLowerCase())return;if("function"!=typeof e.addEventListener)return;var n=(a=e.src,c=a.match(i),c?c[1]:null);var a,c;if(!n)return;var u=function(e){var t=e.match(o);if(t&&t.length>=3)return{key:t[2],parent:s(t[1],window)};return{key:e,parent:window}}(n);if("function"!=typeof u.parent[u.key])return;var d={};function l(){t.emit("jsonp-end",[],d),e.removeEventListener("load",l,(0,R.m$)(!1)),e.removeEventListener("error",f,(0,R.m$)(!1))}function f(){t.emit("jsonp-error",[],d),t.emit("jsonp-end",[],d),e.removeEventListener("load",l,(0,R.m$)(!1)),e.removeEventListener("error",f,(0,R.m$)(!1))}r.inPlace(u.parent,[u.key],"cb-",d),e.addEventListener("load",l,(0,R.m$)(!1)),e.addEventListener("error",f,(0,R.m$)(!1)),t.emit("new-jsonp",[e.src],d)}(e[0])})),t}const k={};function H(e){const t=function(e){return(e||n.ee).get("mutation")}(e);if(!f.il||k[t.debugId])return t;k[t.debugId]=!0;var r=c(t),i=f._A.MutationObserver;return i&&(window.MutationObserver=function(e){return this instanceof i?new i(r(e,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype),t}const z={};function L(e){const t=function(e){return(e||n.ee).get("promise")}(e);if(z[t.debugId])return t;z[t.debugId]=!0;var r=t.context,i=c(t),a=f._A.Promise;return a&&function(){function e(r){var n=t.context(),o=i(r,"executor-",n,null,!1);const s=Reflect.construct(a,[o],e);return t.context(s).getCtx=function(){return n},s}f._A.Promise=e,Object.defineProperty(e,"name",{value:"Promise"}),e.toString=function(){return a.toString()},Object.setPrototypeOf(e,a),["all","race"].forEach((function(r){const n=a[r];e[r]=function(e){let i=!1;[...e||[]].forEach((e=>{this.resolve(e).then(a("all"===r),a(!1))}));const o=n.apply(this,arguments);return o;function a(e){return function(){t.emit("propagate",[null,!i],o,!1,!1),i=i||!e}}}})),["resolve","reject"].forEach((function(r){const n=a[r];e[r]=function(e){const r=n.apply(this,arguments);return e!==r&&t.emit("propagate",[e,!0],r,!1,!1),r}})),e.prototype=a.prototype;const n=a.prototype.then;a.prototype.then=function(){var e=this,o=r(e);o.promise=e;for(var a=arguments.length,s=new Array(a),c=0;c<a;c++)s[c]=arguments[c];s[0]=i(s[0],"cb-",o,null,!1),s[1]=i(s[1],"cb-",o,null,!1);const u=n.apply(this,s);return o.nextPromise=u,t.emit("propagate",[e,!0],u,!1,!1),u},a.prototype.then[o]=n,t.on("executor-start",(function(e){e[0]=i(e[0],"resolve-",this,null,!1),e[1]=i(e[1],"resolve-",this,null,!1)})),t.on("executor-err",(function(e,t,r){e[1](r)})),t.on("cb-end",(function(e,r,n){t.emit("propagate",[n,!0],this.nextPromise,!1,!1)})),t.on("propagate",(function(e,r,n){this.getCtx&&!r||(this.getCtx=function(){if(e instanceof Promise)var r=t.context(e);return r&&r.getCtx?r.getCtx():this})}))}(),t}const M={},F="setTimeout",B="setInterval",U="clearTimeout",Z="-start",V="-",q=[F,"setImmediate",B,U,"clearImmediate"];function G(e){const t=function(e){return(e||n.ee).get("timer")}(e);if(M[t.debugId]++)return t;M[t.debugId]=1;var r=c(t);return r.inPlace(f._A,q.slice(0,2),F+V),r.inPlace(f._A,q.slice(2,3),B+V),r.inPlace(f._A,q.slice(3),U+V),t.on(B+Z,(function(e,t,n){e[0]=r(e[0],"fn-",null,n)})),t.on(F+Z,(function(e,t,n){this.method=n,this.timerDuration=isNaN(e[1])?0:+e[1],e[0]=r(e[0],"fn-",this,n)})),t}var W=r(50);const X={},Y=["open","send"];function K(e){var t=e||n.ee;const r=function(e){return(e||n.ee).get("xhr")}(t);if(X[r.debugId]++)return r;X[r.debugId]=1,b(t);var i=c(r),o=f._A.XMLHttpRequest,a=f._A.MutationObserver,s=f._A.Promise,u=f._A.setInterval,d="readystatechange",l=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],h=[],p=f._A.XMLHttpRequest=function(e){const t=new o(e),n=r.context(t);try{r.emit("new-xhr",[t],n),t.addEventListener(d,(a=n,function(){var e=this;e.readyState>3&&!a.resolved&&(a.resolved=!0,r.emit("xhr-resolved",[],e)),i.inPlace(e,l,"fn-",w)}),(0,R.m$)(!1))}catch(e){(0,W.Z)("An error occurred while intercepting XHR",e);try{r.emit("internal-error",[e])}catch(e){}}var a;return t};function g(e,t){i.inPlace(t,["onreadystatechange"],"fn-",w)}if(function(e,t){for(var r in e)t[r]=e[r]}(o,p),p.prototype=o.prototype,i.inPlace(p.prototype,Y,"-xhr-",w),r.on("send-xhr-start",(function(e,t){g(e,t),function(e){h.push(e),a&&(m?m.then(A):u?u(A):(v=-v,y.data=v))}(t)})),r.on("open-xhr-start",g),a){var m=s&&s.resolve();if(!u&&!s){var v=1,y=document.createTextNode(v);new a(A).observe(y,{characterData:!0})}}else t.on("fn-end",(function(e){e[0]&&e[0].type===d||A()}));function A(){for(var e=0;e<h.length;e++)g(0,h[e]);h.length&&(h=[])}function w(e,t){return t}return r}},7825:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.ajax},6660:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.jserrors},3081:(e,t,r)=>{"use strict";r.d(t,{gF:()=>o,mY:()=>i,t9:()=>n,vz:()=>s,xS:()=>a});const n=r(3325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},4649:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageAction},7633:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewEvent},9251:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewTiming},7144:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.sessionReplay},3614:(e,t,r)=>{"use strict";r.d(t,{BST_RESOURCE:()=>i,END:()=>s,FEATURE_NAME:()=>n,FN_END:()=>u,FN_START:()=>c,PUSH_STATE:()=>d,RESOURCE:()=>o,START:()=>a});const n=r(3325).D.sessionTrace,i="bstResource",o="resource",a="-start",s="-end",c="fn"+a,u="fn"+s,d="pushState"},7836:(e,t,r)=>{"use strict";r.d(t,{BODY:()=>x,CB_END:()=>E,CB_START:()=>u,END:()=>w,FEATURE_NAME:()=>i,FETCH:()=>T,FETCH_BODY:()=>v,FETCH_DONE:()=>m,FETCH_START:()=>g,FN_END:()=>c,FN_START:()=>s,INTERACTION:()=>f,INTERACTION_API:()=>d,INTERACTION_EVENTS:()=>o,JSONP_END:()=>b,JSONP_NODE:()=>p,JS_TIME:()=>_,MAX_TIMER_BUDGET:()=>a,REMAINING:()=>l,SPA_NODE:()=>h,START:()=>A,originalSetTimeout:()=>y});var n=r(234);const i=r(3325).D.spa,o=["click","submit","keypress","keydown","keyup","change"],a=999,s="fn-start",c="fn-end",u="cb-start",d="api-ixn-",l="remaining",f="interaction",h="spaNode",p="jsonpNode",g="fetch-start",m="fetch-done",v="fetch-body-",b="jsonp-end",y=n.Yu.ST,A="-start",w="-end",x="-body",E="cb"+w,_="jsTime",T="fetch"},5938:(e,t,r)=>{"use strict";r.d(t,{W:()=>i});var n=r(8325);class i{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=n.ee.get(e),this.featureName=r,this.blocked=!1}}},7530:(e,t,r)=>{"use strict";r.d(t,{j:()=>b});var n=r(3325),i=r(234),o=r(5546),a=r(8325),s=r(7894),c=r(8e3),u=r(3960),d=r(385),l=r(50),f=r(3081),h=r(8632);function p(){const e=(0,h.gG)();["setErrorHandler","finished","addToTrace","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start","recordReplay","pauseReplay"].forEach((t=>{e[t]=function(){for(var r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return function(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...n))})),o.length>1?o:o[0]}(t,...n)}}))}var g=r(2825);const m=e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e};let v=!1;function b(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},b=arguments.length>2?arguments[2]:void 0,y=arguments.length>3?arguments[3]:void 0,{init:A,info:w,loader_config:x,runtime:E={loaderType:b},exposed:_=!0}=t;const T=(0,h.gG)();w||(A=T.init,w=T.info,x=T.loader_config),(0,i.Dg)(e.agentIdentifier,A||{}),(0,i.GE)(e.agentIdentifier,x||{}),w.jsAttributes??={},d.v6&&(w.jsAttributes.isWorker=!0),(0,i.CX)(e.agentIdentifier,w);const S=(0,i.P_)(e.agentIdentifier),D=[w.beacon,w.errorBeacon];v||(S.proxy.assets&&(m(S.proxy.assets),D.push(S.proxy.assets)),S.proxy.beacon&&D.push(S.proxy.beacon),p(),(0,h.EZ)("activatedFeatures",g.T)),E.denyList=[...S.ajax.deny_list||[],...S.ajax.block_internal?D:[]],(0,i.sU)(e.agentIdentifier,E),void 0===e.api&&(e.api=function(e,t){t||(0,c.R)(e,"api");const h={};var p=a.ee.get(e),g=p.get("tracer"),m="api-",v=m+"ixn-";function b(t,r,n,o){const a=(0,i.C5)(e);return null===r?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:r}}),w(m,n,!0,o||null===r?"session":void 0)(t,r)}function y(){}["setErrorHandler","finished","addToTrace","addRelease"].forEach((e=>{h[e]=w(m,e,!0,"api")})),h.addPageAction=w(m,"addPageAction",!0,n.D.pageAction),h.setCurrentRouteName=w(m,"routeName",!0,n.D.spa),h.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(r||"http://custom.transaction")+t,w(m,"setPageViewName",!0)()},h.setCustomAttribute=function(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number","boolean"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",r);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string, number or boolean type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},h.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},h.setApplicationVersion=function(e){if("string"==typeof e||null===e)return b("application.version",e,"setApplicationVersion",!1);(0,l.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},h.start=e=>{try{const t=e?"defined":"undefined";(0,o.p)(f.xS,["API/start/".concat(t,"/called")],void 0,n.D.metrics,p);const r=Object.values(n.D);if(void 0===e)e=r;else{if((e=Array.isArray(e)&&e.length?e:[e]).some((e=>!r.includes(e))))return(0,l.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(r));e.includes(n.D.pageViewEvent)||e.push(n.D.pageViewEvent)}e.forEach((e=>{p.emit("".concat(e,"-opt-in"))}))}catch(e){(0,l.Z)("An unexpected issue occurred",e)}},h.recordReplay=function(){(0,o.p)(f.xS,["API/recordReplay/called"],void 0,n.D.metrics,p),(0,o.p)("recordReplay",[],void 0,n.D.sessionReplay,p)},h.pauseReplay=function(){(0,o.p)(f.xS,["API/pauseReplay/called"],void 0,n.D.metrics,p),(0,o.p)("pauseReplay",[],void 0,n.D.sessionReplay,p)},h.interaction=function(){return(new y).get()};var A=y.prototype={createTracer:function(e,t){var r={},i=this,a="function"==typeof t;return(0,o.p)(f.xS,["API/createTracer/called"],void 0,n.D.metrics,p),(0,o.p)(v+"tracer",[(0,s.z)(),e,r],i,n.D.spa,p),function(){if(g.emit((a?"":"no-")+"fn-start",[(0,s.z)(),i,a],r),a)try{return t.apply(this,arguments)}catch(e){throw g.emit("fn-err",[arguments,this,e],r),e}finally{g.emit("fn-end",[(0,s.z)()],r)}}}};function w(e,t,r,i){return function(){return(0,o.p)(f.xS,["API/"+t+"/called"],void 0,n.D.metrics,p),i&&(0,o.p)(e+t,[(0,s.z)(),...arguments],r?null:this,i,p),r?void 0:this}}function x(){r.e(111).then(r.bind(r,7438)).then((t=>{let{setAPI:r}=t;r(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{A[e]=w(v,e,void 0,n.D.spa)})),h.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,o.p)(f.xS,["API/noticeError/called"],void 0,n.D.metrics,p),(0,o.p)("err",[e,(0,s.z)(),!1,t],void 0,n.D.jserrors,p)},d.il?(0,u.b2)((()=>x()),!0):x(),h}(e.agentIdentifier,y)),void 0===e.exposed&&(e.exposed=_),v=!0}},1926:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},3325:(e,t,r)=>{"use strict";r.d(t,{D:()=>n,p:()=>i});const n={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.ajax]:5,[n.sessionTrace]:6,[n.pageAction]:7,[n.spa]:8,[n.sessionReplay]:9}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var o=n[e]={exports:{}};return r[e](o,o.exports,i),o.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>({111:"nr-spa",164:"nr-spa-compressor",433:"nr-spa-recorder"}[e]+"-1.248.0.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.248.0.PROD:",i.l=(r,n,o,a)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+o){s=l;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=r,0!==s.src.indexOf(window.location.origin+"/")&&(s.crossOrigin="anonymous"),s.integrity=i.sriHashes[a],s.crossOrigin="anonymous"),e[r]=[n];var f=(t,n)=>{s.onerror=s.onload=null,clearTimeout(h);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},h=setTimeout(f.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=f.bind(null,s.onerror),s.onload=f.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",i.sriHashes={111:"sha512-ZwkW/wLO65ZnBcPIJO2VJVqTtRyXCRZiimLidZm1CYZfRiDwnchDLGFiEKDNkhfy/b1cgD3SElt5YjVudzleDQ=="},(()=>{var e={801:0,92:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var o=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var o=r&&("load"===r.type?"missing":r.type),a=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,o,[a,s,c]=r,u=0;if(a.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},r=self["webpackChunk:NRBA-1.248.0.PROD"]=self["webpackChunk:NRBA-1.248.0.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(1926);var e=i(50);class t{addPageAction(t,r){(0,e.Z)("Call to agent api addPageAction failed. The page action feature is not currently initialized.")}setPageViewName(t,r){(0,e.Z)("Call to agent api setPageViewName failed. The page view feature is not currently initialized.")}setCustomAttribute(t,r,n){(0,e.Z)("Call to agent api setCustomAttribute failed. The js errors feature is not currently initialized.")}noticeError(t,r){(0,e.Z)("Call to agent api noticeError failed. The js errors feature is not currently initialized.")}setUserId(t){(0,e.Z)("Call to agent api setUserId failed. The js errors feature is not currently initialized.")}setApplicationVersion(t){(0,e.Z)("Call to agent api setApplicationVersion failed. The agent is not currently initialized.")}setErrorHandler(t){(0,e.Z)("Call to agent api setErrorHandler failed. The js errors feature is not currently initialized.")}finished(t){(0,e.Z)("Call to agent api finished failed. The page action feature is not currently initialized.")}addRelease(t,r){(0,e.Z)("Call to agent api addRelease failed. The js errors feature is not currently initialized.")}start(t){(0,e.Z)("Call to agent api addRelease failed. The agent is not currently initialized.")}recordReplay(){(0,e.Z)("Call to agent api recordReplay failed. The agent is not currently initialized.")}pauseReplay(){(0,e.Z)("Call to agent api pauseReplay failed. The agent is not currently initialized.")}}var r=i(3325),n=i(234);const o=Object.values(r.D);function a(e){const t={};return o.forEach((r=>{t[r]=function(e,t){return!1!==(0,n.Mt)(t,"".concat(e,".enabled"))}(r,e)})),t}var s=i(7530);var c=i(8e3),u=i(5938),d=i(3960),l=i(385);class f extends u.W{constructor(e,t,r){let i=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.auto=i,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,n.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto&&(0,c.R)(e,r)}importAggregator(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate)return;if(!this.auto)return void this.ee.on("".concat(this.featureName,"-opt-in"),(()=>{(0,c.R)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()}));const r=l.il&&!0===(0,n.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let o;this.onAggregateImported=new Promise((e=>{o=e}));const a=async()=>{let n;try{if(r){const{setupAgentSession:e}=await i.e(111).then(i.bind(i,3228));n=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t)}try{if(!this.shouldImportAgg(this.featureName,n))return(0,c.L)(this.agentIdentifier,this.featureName),void o(!1);const{lazyFeatureLoader:e}=await i.e(111).then(i.bind(i,8582)),{Aggregate:r}=await e(this.featureName,"aggregate");this.featAggregate=new r(this.agentIdentifier,this.aggregator,t),o(!0)}catch(t){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),t),this.abortHandler?.(),(0,c.L)(this.agentIdentifier,this.featureName),o(!1)}};l.il?(0,d.b2)((()=>a()),!0):a()}shouldImportAgg(e,t){return e!==r.D.sessionReplay||!!n.Yu.MO&&(!1!==(0,n.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!t?.isNew||!!t?.state.sessionReplayMode))}}var h=i(7633);class p extends f{static featureName=h.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,h.t,r),this.importAggregator()}}var g=i(1117),m=i(1284);class v extends g.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var o=this.getBucket(e,t,r,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,m.D)(e,(function(e,r){t[e]=b(r,t[e])})),t}(n,o.metrics),o}merge(e,t,r,n,i){var o=this.getBucket(e,t,n,i);if(o.metrics){var a=o.metrics;a.count+=r.count,(0,m.D)(r,(function(e,t){if("count"!==e){var n=a[e],i=r[e];i&&!i.c?a[e]=b(i.t,n):a[e]=function(e,t){if(!t)return e;t.c||(t=y(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=b(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=A(this.aggregatedData[r]),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function b(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=y(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function y(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function A(e){return"object"!=typeof e?[]:(0,m.D)(e,w)}function w(e,t){return t}var x=i(8632),E=i(4402),_=i(4351);var T=i(5546),S=i(7956),D=i(3239),j=i(7894),N=i(9251);class C extends f{static featureName=N.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,N.t,r),l.il&&((0,S.N)((()=>(0,T.p)("docHidden",[(0,j.z)()],void 0,N.t,this.ee)),!0),(0,D.bP)("pagehide",(()=>(0,T.p)("winPagehide",[(0,j.z)()],void 0,N.t,this.ee))),this.importAggregator())}}var R=i(3081);class O extends f{static featureName=R.t9;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,R.t9,r),this.importAggregator()}}var P=i(6660);class I{constructor(e,t,r,n){this.name="UncaughtError",this.message=e,this.sourceURL=t,this.line=r,this.column=n}}class k extends f{static featureName=P.t;#e=new Set;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,P.t,n);try{this.removeOnAbort=new AbortController}catch(e){}this.ee.on("fn-err",((e,t,n)=>{this.abortHandler&&!this.#e.has(n)&&(this.#e.add(n),(0,T.p)("err",[this.#t(n),(0,j.z)()],void 0,r.D.jserrors,this.ee))})),this.ee.on("internal-error",(e=>{this.abortHandler&&(0,T.p)("ierr",[this.#t(e),(0,j.z)(),!0],void 0,r.D.jserrors,this.ee)})),l._A.addEventListener("unhandledrejection",(e=>{this.abortHandler&&(0,T.p)("err",[this.#r(e),(0,j.z)(),!1,{unhandledPromiseRejection:1}],void 0,r.D.jserrors,this.ee)}),(0,D.m$)(!1,this.removeOnAbort?.signal)),l._A.addEventListener("error",(e=>{this.abortHandler&&(this.#e.has(e.error)?this.#e.delete(e.error):(0,T.p)("err",[this.#n(e),(0,j.z)()],void 0,r.D.jserrors,this.ee))}),(0,D.m$)(!1,this.removeOnAbort?.signal)),this.abortHandler=this.#i,this.importAggregator()}#i(){this.removeOnAbort?.abort(),this.#e.clear(),this.abortHandler=void 0}#t(e){return e instanceof Error?e:void 0!==e?.message?new I(e.message,e.filename||e.sourceURL,e.lineno||e.line,e.colno||e.col):new I("string"==typeof e?e:(0,_.P)(e))}#r(e){let t="Unhandled Promise Rejection: ";if(e?.reason instanceof Error)try{return e.reason.message=t+e.reason.message,e.reason}catch(t){return e.reason}if(void 0===e.reason)return new I(t);const r=this.#t(e.reason);return r.message=t+r.message,r}#n(e){return e.error instanceof Error?e.error:new I(e.message,e.filename,e.lineno,e.colno)}}var H=i(2210);let z=1;const L="nr@id";function M(e){const t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===l._A?0:(0,H.X)(e,L,(function(){return z++}))}function F(e){if("string"==typeof e&&e.length)return e.length;if("object"==typeof e){if("undefined"!=typeof ArrayBuffer&&e instanceof ArrayBuffer&&e.byteLength)return e.byteLength;if("undefined"!=typeof Blob&&e instanceof Blob&&e.size)return e.size;if(!("undefined"!=typeof FormData&&e instanceof FormData))try{return(0,_.P)(e).length}catch(e){return}}}var B=i(1214),U=i(7243);class Z{constructor(e){this.agentIdentifier=e}generateTracePayload(e){if(!this.shouldGenerateTrace(e))return null;var t=(0,n.DL)(this.agentIdentifier);if(!t)return null;var r=(t.accountID||"").toString()||null,i=(t.agentID||"").toString()||null,o=(t.trustKey||"").toString()||null;if(!r||!i)return null;var a=(0,E.M)(),s=(0,E.Ht)(),c=Date.now(),u={spanId:a,traceId:s,timestamp:c};return(e.sameOrigin||this.isAllowedOrigin(e)&&this.useTraceContextHeadersForCors())&&(u.traceContextParentHeader=this.generateTraceContextParentHeader(a,s),u.traceContextStateHeader=this.generateTraceContextStateHeader(a,c,r,i,o)),(e.sameOrigin&&!this.excludeNewrelicHeader()||!e.sameOrigin&&this.isAllowedOrigin(e)&&this.useNewrelicHeaderForCors())&&(u.newrelicHeader=this.generateTraceHeader(a,s,c,r,i,o)),u}generateTraceContextParentHeader(e,t){return"00-"+t+"-"+e+"-01"}generateTraceContextStateHeader(e,t,r,n,i){return i+"@nr=0-1-"+r+"-"+n+"-"+e+"----"+t}generateTraceHeader(e,t,r,n,i,o){if(!("function"==typeof l._A?.btoa))return null;var a={v:[0,1],d:{ty:"Browser",ac:n,ap:i,id:e,tr:t,ti:r}};return o&&n!==o&&(a.d.tk=o),btoa((0,_.P)(a))}shouldGenerateTrace(e){return this.isDtEnabled()&&this.isAllowedOrigin(e)}isAllowedOrigin(e){var t=!1,r={};if((0,n.Mt)(this.agentIdentifier,"distributed_tracing")&&(r=(0,n.P_)(this.agentIdentifier).distributed_tracing),e.sameOrigin)t=!0;else if(r.allowed_origins instanceof Array)for(var i=0;i<r.allowed_origins.length;i++){var o=(0,U.e)(r.allowed_origins[i]);if(e.hostname===o.hostname&&e.protocol===o.protocol&&e.port===o.port){t=!0;break}}return t}isDtEnabled(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.enabled}excludeNewrelicHeader(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.exclude_newrelic_header}useNewrelicHeaderForCors(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!1!==e.cors_use_newrelic_header}useTraceContextHeadersForCors(){var e=(0,n.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.cors_use_tracecontext_headers}}var V=i(7825),q=["load","error","abort","timeout"],G=q.length,W=n.Yu.REQ,X=n.Yu.XHR;class Y extends f{static featureName=V.t;constructor(e,t){let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(e,t,V.t,i),(0,n.OP)(e).xhrWrappable){this.dt=new Z(e),this.handler=(e,t,r,n)=>(0,T.p)(e,t,r,n,this.ee);try{const e={xmlhttprequest:"xhr",fetch:"fetch",beacon:"beacon"};l._A?.performance?.getEntriesByType("resource").forEach((t=>{if(t.initiatorType in e&&0!==t.responseStatus){const n={status:t.responseStatus},i={rxSize:t.transferSize,duration:Math.floor(t.duration),cbTime:0};K(n,t.name),this.handler("xhr",[n,i,t.startTime,t.responseEnd,e[t.initiatorType]],void 0,r.D.ajax)}}))}catch(e){}(0,B.u5)(this.ee),(0,B.Kf)(this.ee),function(e,t,i,o){function a(e){var t=this;t.totalCbs=0,t.called=0,t.cbTime=0,t.end=x,t.ended=!1,t.xhrGuids={},t.lastSize=null,t.loadCaptureCalled=!1,t.params=this.params||{},t.metrics=this.metrics||{},e.addEventListener("load",(function(r){E(t,e)}),(0,D.m$)(!1)),l.IF||e.addEventListener("progress",(function(e){t.lastSize=e.loaded}),(0,D.m$)(!1))}function s(e){this.params={method:e[0]},K(this,e[1]),this.metrics={}}function c(t,r){var i=(0,n.DL)(e);i.xpid&&this.sameOrigin&&r.setRequestHeader("X-NewRelic-ID",i.xpid);var a=o.generateTracePayload(this.parsedOrigin);if(a){var s=!1;a.newrelicHeader&&(r.setRequestHeader("newrelic",a.newrelicHeader),s=!0),a.traceContextParentHeader&&(r.setRequestHeader("traceparent",a.traceContextParentHeader),a.traceContextStateHeader&&r.setRequestHeader("tracestate",a.traceContextStateHeader),s=!0),s&&(this.dt=a)}}function u(e,r){var n=this.metrics,i=e[0],o=this;if(n&&i){var a=F(i);a&&(n.txSize=a)}this.startTime=(0,j.z)(),this.body=i,this.listener=function(e){try{"abort"!==e.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==e.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof r.onload)&&"function"==typeof o.end)&&o.end(r)}catch(e){try{t.emit("internal-error",[e])}catch(e){}}};for(var s=0;s<G;s++)r.addEventListener(q[s],this.listener,(0,D.m$)(!1))}function d(e,t,r){this.cbTime+=e,t?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof r.onload||"function"!=typeof this.end||this.end(r)}function f(e,t){var r=""+M(e)+!!t;this.xhrGuids&&!this.xhrGuids[r]&&(this.xhrGuids[r]=!0,this.totalCbs+=1)}function h(e,t){var r=""+M(e)+!!t;this.xhrGuids&&this.xhrGuids[r]&&(delete this.xhrGuids[r],this.totalCbs-=1)}function p(){this.endTime=(0,j.z)()}function g(e,r){r instanceof X&&"load"===e[0]&&t.emit("xhr-load-added",[e[1],e[2]],r)}function m(e,r){r instanceof X&&"load"===e[0]&&t.emit("xhr-load-removed",[e[1],e[2]],r)}function v(e,t,r){t instanceof X&&("onload"===r&&(this.onload=!0),("load"===(e[0]&&e[0].type)||this.onload)&&(this.xhrCbStart=(0,j.z)()))}function b(e,r){this.xhrCbStart&&t.emit("xhr-cb-time",[(0,j.z)()-this.xhrCbStart,this.onload,r],r)}function y(e){var t,r=e[1]||{};if("string"==typeof e[0]?0===(t=e[0]).length&&l.il&&(t=""+l._A.location.href):e[0]&&e[0].url?t=e[0].url:l._A?.URL&&e[0]&&e[0]instanceof URL?t=e[0].href:"function"==typeof e[0].toString&&(t=e[0].toString()),"string"==typeof t&&0!==t.length){t&&(this.parsedOrigin=(0,U.e)(t),this.sameOrigin=this.parsedOrigin.sameOrigin);var n=o.generateTracePayload(this.parsedOrigin);if(n&&(n.newrelicHeader||n.traceContextParentHeader))if(e[0]&&e[0].headers)s(e[0].headers,n)&&(this.dt=n);else{var i={};for(var a in r)i[a]=r[a];i.headers=new Headers(r.headers||{}),s(i.headers,n)&&(this.dt=n),e.length>1?e[1]=i:e.push(i)}}function s(e,t){var r=!1;return t.newrelicHeader&&(e.set("newrelic",t.newrelicHeader),r=!0),t.traceContextParentHeader&&(e.set("traceparent",t.traceContextParentHeader),t.traceContextStateHeader&&e.set("tracestate",t.traceContextStateHeader),r=!0),r}}function A(e,t){this.params={},this.metrics={},this.startTime=(0,j.z)(),this.dt=t,e.length>=1&&(this.target=e[0]),e.length>=2&&(this.opts=e[1]);var r,n=this.opts||{},i=this.target;"string"==typeof i?r=i:"object"==typeof i&&i instanceof W?r=i.url:l._A?.URL&&"object"==typeof i&&i instanceof URL&&(r=i.href),K(this,r);var o=(""+(i&&i instanceof W&&i.method||n.method||"GET")).toUpperCase();this.params.method=o,this.body=n.body,this.txSize=F(n.body)||0}function w(e,t){var n;this.endTime=(0,j.z)(),this.params||(this.params={}),this.params.status=t?t.status:0,"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var o={txSize:this.txSize,rxSize:n,duration:(0,j.z)()-this.startTime};i("xhr",[this.params,o,this.startTime,this.endTime,"fetch"],this,r.D.ajax)}function x(e){var t=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var o=0;o<G;o++)e.removeEventListener(q[o],this.listener,!1);t.aborted||(n.duration=(0,j.z)()-this.startTime,this.loadCaptureCalled||4!==e.readyState?null==t.status&&(t.status=0):E(this,e),n.cbTime=this.cbTime,i("xhr",[t,n,this.startTime,this.endTime,"xhr"],this,r.D.ajax))}}function E(e,t){e.params.status=t.status;var r=function(e,t){var r=e.responseType;return"json"===r&&null!==t?t:"arraybuffer"===r||"blob"===r||"json"===r?F(e.response):"text"===r||""===r||void 0===r?F(e.responseText):void 0}(t,e.lastSize);if(r&&(e.metrics.rxSize=r),e.sameOrigin){var n=t.getResponseHeader("X-NewRelic-App-Data");n&&(e.params.cat=n.split(", ").pop())}e.loadCaptureCalled=!0}t.on("new-xhr",a),t.on("open-xhr-start",s),t.on("open-xhr-end",c),t.on("send-xhr-start",u),t.on("xhr-cb-time",d),t.on("xhr-load-added",f),t.on("xhr-load-removed",h),t.on("xhr-resolved",p),t.on("addEventListener-end",g),t.on("removeEventListener-end",m),t.on("fn-end",b),t.on("fetch-before-start",y),t.on("fetch-start",A),t.on("fn-start",v),t.on("fetch-done",w)}(e,this.ee,this.handler,this.dt),this.importAggregator()}}}function K(e,t){var r=(0,U.e)(t),n=e.params||e;n.hostname=r.hostname,n.port=r.port,n.protocol=r.protocol,n.host=r.hostname+":"+r.port,n.pathname=r.pathname,e.parsedOrigin=r,e.sameOrigin=r.sameOrigin}var Q=i(3614);const{BST_RESOURCE:J,RESOURCE:ee,START:te,END:re,FEATURE_NAME:ne,FN_END:ie,FN_START:oe,PUSH_STATE:ae}=Q;var se=i(7144);class ce extends f{static featureName=se.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,se.t,r),this.importAggregator()}}var ue=i(7836);const{FEATURE_NAME:de,START:le,END:fe,BODY:he,CB_END:pe,JS_TIME:ge,FETCH:me,FN_START:ve,CB_START:be,FN_END:ye}=ue;var Ae=i(4649);class we extends f{static featureName=Ae.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,Ae.t,r),this.importAggregator()}}new class extends t{constructor(t){let r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,E.ky)(16);super(),l._A?(this.agentIdentifier=r,this.sharedAggregator=new v({agentIdentifier:this.agentIdentifier}),this.features={},(0,x.h5)(r,this),this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(p),(0,s.j)(this,t,t.loaderType||"agent"),this.run()):(0,e.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,n.C5)(this.agentIdentifier),init:(0,n.P_)(this.agentIdentifier),loader_config:(0,n.DL)(this.agentIdentifier),runtime:(0,n.OP)(this.agentIdentifier)}}run(){try{const t=a(this.agentIdentifier),n=[...this.desiredFeatures];n.sort(((e,t)=>r.p[e.featureName]-r.p[t.featureName])),n.forEach((n=>{if(t[n.featureName]||n.featureName===r.D.pageViewEvent){const i=function(e){switch(e){case r.D.ajax:return[r.D.jserrors];case r.D.sessionTrace:return[r.D.ajax,r.D.pageViewEvent];case r.D.sessionReplay:return[r.D.sessionTrace];case r.D.pageViewTiming:return[r.D.pageViewEvent];default:return[]}}(n.featureName);i.every((e=>t[e]))||(0,e.Z)("".concat(n.featureName," is enabled but one or more dependent features has been disabled (").concat((0,_.P)(i),"). This may cause unintended consequences or missing data...")),this.features[n.featureName]=new n(this.agentIdentifier,this.sharedAggregator)}}))}catch(t){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",t);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,x.fP)();return delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator,r.ee?.abort(),delete r.ee?.get(this.agentIdentifier),!1}}addToTrace(t){(0,e.Z)("Call to agent api addToTrace failed. The session trace feature is not currently initialized.")}setCurrentRouteName(t){(0,e.Z)("Call to agent api setCurrentRouteName failed. The spa feature is not currently initialized.")}interaction(){(0,e.Z)("Call to agent api interaction failed. The spa feature is not currently initialized.")}}({features:[Y,p,C,class extends f{static featureName=ne;constructor(e,t){if(super(e,t,ne,!(arguments.length>2&&void 0!==arguments[2])||arguments[2]),!l.il)return;const n=this.ee;let i;(0,B.QU)(n),this.eventsEE=(0,B.em)(n),this.eventsEE.on(oe,(function(e,t){this.bstStart=(0,j.z)()})),this.eventsEE.on(ie,(function(e,t){(0,T.p)("bst",[e[0],t,this.bstStart,(0,j.z)()],void 0,r.D.sessionTrace,n)})),n.on(ae+te,(function(e){this.time=(0,j.z)(),this.startPath=location.pathname+location.hash})),n.on(ae+re,(function(e){(0,T.p)("bstHist",[location.pathname+location.hash,this.startPath,this.time],void 0,r.D.sessionTrace,n)}));try{i=new PerformanceObserver((e=>{const t=e.getEntries();(0,T.p)(J,[t],void 0,r.D.sessionTrace,n)})),i.observe({type:ee,buffered:!0})}catch(e){}this.importAggregator({resourceObserver:i})}},ce,O,we,k,class extends f{static featureName=de;constructor(e,t){if(super(e,t,de,!(arguments.length>2&&void 0!==arguments[2])||arguments[2]),!l.il)return;if(!(0,n.OP)(e).xhrWrappable)return;try{this.removeOnAbort=new AbortController}catch(e){}let r,i=0;const o=this.ee.get("tracer"),a=(0,B._L)(this.ee),s=(0,B.Lg)(this.ee),c=(0,B.BV)(this.ee),u=(0,B.Kf)(this.ee),d=this.ee.get("events"),f=(0,B.u5)(this.ee),h=(0,B.QU)(this.ee),p=(0,B.Gm)(this.ee);function g(e,t){h.emit("newURL",[""+window.location,t])}function m(){i++,r=window.location.hash,this[ve]=(0,j.z)()}function v(){i--,window.location.hash!==r&&g(0,!0);var e=(0,j.z)();this[ge]=~~this[ge]+e-this[ve],this[ye]=e}function b(e,t){e.on(t,(function(){this[t]=(0,j.z)()}))}this.ee.on(ve,m),s.on(be,m),a.on(be,m),this.ee.on(ye,v),s.on(pe,v),a.on(pe,v),this.ee.buffer([ve,ye,"xhr-resolved"],this.featureName),d.buffer([ve],this.featureName),c.buffer(["setTimeout"+fe,"clearTimeout"+le,ve],this.featureName),u.buffer([ve,"new-xhr","send-xhr"+le],this.featureName),f.buffer([me+le,me+"-done",me+he+le,me+he+fe],this.featureName),h.buffer(["newURL"],this.featureName),p.buffer([ve],this.featureName),s.buffer(["propagate",be,pe,"executor-err","resolve"+le],this.featureName),o.buffer([ve,"no-"+ve],this.featureName),a.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"],this.featureName),b(f,me+le),b(f,me+"-done"),b(a,"new-jsonp"),b(a,"jsonp-end"),b(a,"cb-start"),h.on("pushState-end",g),h.on("replaceState-end",g),window.addEventListener("hashchange",g,(0,D.m$)(!0,this.removeOnAbort?.signal)),window.addEventListener("load",g,(0,D.m$)(!0,this.removeOnAbort?.signal)),window.addEventListener("popstate",(function(){g(0,i>1)}),(0,D.m$)(!0,this.removeOnAbort?.signal)),this.abortHandler=this.#i,this.importAggregator()}#i(){this.removeOnAbort?.abort(),this.abortHandler=void 0}}],loaderType:"spa"})})()})();</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="/_assets/core/images/favicon/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="/_assets/core/images/favicon/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="/_assets/core/images/favicon/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/_assets/core/images/favicon/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/_assets/core/images/favicon/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/_assets/core/images/favicon/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/_assets/core/images/favicon/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/_assets/core/images/favicon/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/_assets/core/images/favicon/apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/_assets/core/images/favicon/apple-touch-icon-180x180.png" />    <link rel="stylesheet" href="https://use.typekit.net/wco1mnc.css" />
+    <!-- user scripts / style -->
+    
+<title>Terms of Service</title>
+<meta name="title" content="Terms of Service"/>
+<meta name="robots" content="index, follow"/>
+<meta name="googlebot" content="index, follow"/>
+<meta property="og:type" content="website"/>
+
+<meta property="og:image" content="https://www.jamsadr.com/files/imagecontrol/19d2dda0-9ede-4cb5-b269-0342c2ecb5a4/7483b893-e478-44a4-8fed-f49aa917d8cf/presentation/image/jams_logo.png"/>
+<meta property="og:description" content=""/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Terms of Service"/>
+<meta name="twitter:description" content=""/>
+<meta name="twitter:image" content="https://www.jamsadr.com/files/imagecontrol/19d2dda0-9ede-4cb5-b269-0342c2ecb5a4/7483b893-e478-44a4-8fed-f49aa917d8cf/presentation/image/jams_logo.png"/>
+
+<link rel="canonical" href="https://www.jamsadr.com/terms-of-service/"/>
+
+    <!-- Global CSS Starts -->
+<link rel="stylesheet" type="text/css" href="/_assets/core/vendor/aos.css"  />
+<link rel="stylesheet" type="text/css" href="/_assets/core/css/global.css"  />
+<link rel="stylesheet" type="text/css" href="/_assets/core/css/custom.css"  />
+
+
+
+
+<!-- Global CSS Ends -->
+
+
+    
+<!-- Template (General Content) CSS Starts -->
+<link rel="stylesheet" type="text/css" href="/_assets/core/css/landing.css"/>
+
+<!-- Template (General Content) CSS End -->
+
+
+    
+    
+<!-- Template (General Content) JS Top Starts -->
+<!--[if lte IE 8]>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+<![endif]-->
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+
+
+  </head>
+    <body data-page-template="General Content">
+    <!-- Google Tag Manager (noscript) -->
+			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MRM3HTK"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+    <!-- header -->
+    <a href="#main-content" class="skip-to-main" id="skip-to-main">
+  Skip to main content
+</a>
+    
+    
+<header class="header" id="header">
+  
+  <!-- navsecondary-->
+  
+  <nav id="nav-secondary-container" class="nav-secondary-container" aria-label="Secondary">
+  <div class="container">
+    <ul class="nav nav-secondary" id="nav-secondary" label="Secondary Menu">
+      <li class="nav-item has-dd">
+<a  href="/about/" target="_self" id="jams_nav_about_link" class="nav-link dd-trigger">About</a><span class="mobile-dd-toggle"></span>
+<ul class="nav-dd" id="jams_dd_about"><li class="nav-item"><a href="/about/" class="nav-link" target="_self">About JAMS</a></li>
+<li class="nav-item"><a href="/diversity/" class="nav-link" target="_self">Diversity & Inclusion</a></li>
+<li class="nav-item"><a href="/social-responsibility/" class="nav-link" target="_self">Commitment to Social Responsibility</a></li>
+<li class="nav-item"><a href="/jams-senior-management/" class="nav-link" target="_self">Senior Management & Leadership</a></li>
+<li class="nav-item"><a href="/knight/" class="nav-link" target="_self">Founder</a></li>
+<li class="nav-item"><a href="/jamsaccess" class="nav-link" target="_self">JAMS Access</a></li>
+</ul>
+</li>
+<li class="nav-item has-dd">
+<a  href="/careers/" target="_self" id="jams_nav_careers_link" class="nav-link dd-trigger">Careers</a><span class="mobile-dd-toggle"></span>
+<ul class="nav-dd" id="jams_dd_careers"><li class="nav-item"><a href="/careers/" class="nav-link" target="_self">Careers at JAMS</a></li>
+<li class="nav-item"><a href="/careers-benefits/" class="nav-link" target="_self">Employee Benefits</a></li>
+<li class="nav-item"><a href=" https://careers-jamsadr.icims.com/" class="nav-link" target="_self">Apply Online</a></li>
+</ul>
+</li>
+<li class="nav-item has-dd">
+<a  href="/jamsfoundation/" target="_self" id="jams_nav_jams_foundation_link" class="nav-link dd-trigger">JAMS Foundation</a><span class="mobile-dd-toggle"></span>
+<ul class="nav-dd" id="jams_dd_jams_foundation"><li class="nav-item"><a href="/jamsfoundation/" class="nav-link" target="_self">About JAMS Foundation</a></li>
+<li class="nav-item"><a href="/nafcm/" class="nav-link" target="_self">NAFCM Mini-Grant Program</a></li>
+<li class="nav-item"><a href="/acr/" class="nav-link" target="_self">ACR Initiative for Students and Youth</a></li>
+<li class="nav-item"><a href="/weinstein-fellowship/" class="nav-link" target="_self">Weinstein JAMS International Fellowship</a></li>
+<li class="nav-item"><a href="/foundation-initiatives/" class="nav-link" target="_self">Major Dispute Resolution Initiatives</a></li>
+<li class="nav-item"><a href="/knight-award/" class="nav-link" target="_self">Warren Knight Award</a></li>
+<li class="nav-item"><a href="/adr-educational-materials/" class="nav-link" target="_self">ADR Educational Materials</a></li>
+<li class="nav-item"><a href="/jams-foundation-archive" class="nav-link" target="_self">JAMS Foundation Archive</a></li>
+<li class="nav-item"><a href="/principal-benefactors" class="nav-link" target="_self">Principal Benefactors</a></li>
+<li class="nav-item"><a href="/jams-foundation-board-of-directors" class="nav-link" target="_self">JAMS Foundation Board of Directors</a></li>
+</ul>
+</li>
+    </ul>
+    <div class="nav-actions" id="nave-actions">
+                        
+            <a href="/submit/" class="nav-link" id="jams_nav_submit_case">
+              <span class="nav-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="24" height="24"
+                  fill="currentColor">
+                  <g>
+                    <rect x="161.96" y="178.77" width="43.56" height="15.84"></rect>
+                    <rect x="161.96" y="214.42" width="91.09" height="15.84"></rect>
+                    <rect x="161.96" y="250.06" width="91.09" height="15.84"></rect>
+                    <path
+                      d="M362.55,240.09a3,3,0,0,0-2.16-.94,3,3,0,0,0-2.17.94l-14.71,15.46a3.35,3.35,0,0,0,0,4.55l21.54,22.63a.31.31,0,0,1-.2.52l-98.72,1.52a3.14,3.14,0,0,0-3.07,3.22v21.86a3.14,3.14,0,0,0,3.07,3.22l101.62-1.52a.3.3,0,0,1,.2.51l-24.44,25.68a3.35,3.35,0,0,0,0,4.55l14.71,15.46a3,3,0,0,0,4.33,0l55.7-58.51-.3-.32.3-.31Z">
+                    </path>
+                    <path
+                      d="M384.91,347.75l-28.28,27.59a3.6,3.6,0,0,0-1.08,2.57v16.6H146.71V83.17l104,.78v95.51a4.61,4.61,0,0,0,4.61,4.62H355.61l-.06,31.35a3.43,3.43,0,0,0,.93,2.35l29.16,31.15a1.17,1.17,0,0,0,2-.8l.11-95.23-.07-1.85L280.77,52l-.07.6a2.42,2.42,0,0,0-1.72-.47l-.14-.13h-145a19.6,19.6,0,0,0-19.36,19.84V405.8a19.6,19.6,0,0,0,19.36,19.84H368.47a19.6,19.6,0,0,0,19.36-19.84l-.12-56.88A1.65,1.65,0,0,0,384.91,347.75ZM283.66,146.46v-48l58.63,52.64h-54A4.61,4.61,0,0,1,283.66,146.46Z">
+                    </path>
+                  </g>
+                </svg>
+                
+                
+              </span> Submit a Case </a>
+            
+                        <a href="https://access.jamsadr.com/" class="nav-link" id="jams_nav_log_access">
+              <span class="nav-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="24" height="24"
+                  fill="currentColor">
+                  <path
+                    d="M202.2,180.86a3,3,0,0,0-4.33,0l-14.72,15.46a3.35,3.35,0,0,0,0,4.55l21.55,22.64a.3.3,0,0,1-.2.51l-98.73,1.53a3.14,3.14,0,0,0-3.06,3.21v21.87a3.14,3.14,0,0,0,3.06,3.21l101.62-1.52a.3.3,0,0,1,.21.51l-24.45,25.69a3.33,3.33,0,0,0,0,4.54l14.72,15.46a3,3,0,0,0,4.33,0L257.9,240l-.31-.32.31-.31Z">
+                  </path>
+                  <path
+                    d="M378.59,51.72H143.52a19.65,19.65,0,0,0-19.4,19.88L124,206.47h32l.48-123.56H365.65V394.77H156.46L156,271.47l-31.86.43V406.09A19.64,19.64,0,0,0,143.52,426H378.59A19.64,19.64,0,0,0,398,406.09V71.6A19.64,19.64,0,0,0,378.59,51.72Z">
+                  </path>
+                </svg>
+                
+              </span> Log Into JAMS Access </a>
+          </div>
+  </div>
+</nav>
+  
+  
+  
+  
+    
+  
+  
+  <div class="header-container">
+    <div class="container">
+     
+      <!--logo -->
+      <div class="logo-container" id="container-logo">
+        <a href="/" title="JAMS Home">
+          <img class="logo" src="/_assets/core/images/jams-logo.svg" alt="JAMS Logo" width="198" height="60"/>
+          <img class="logo-icon" src="/_assets/core/images/jams-logo-icon.svg" alt="JAMS Logo" width="76" height="48"/>
+        </a>
+      </div>
+      <!-- toggle -->
+   <div class="nav-toggle">
+    <button type="button" class="btn" id="btn-nav-toggle" aria-labelledby="toggle-label"><span class="btn-bar"></span><span class="sr-only" id="toggle-label">MENU</span></button>
+  </div>
+  <!-- navigation -->
+      <nav id="nav-primary" class="nav-primary-container" aria-label="Primary Navigation">
+            <ul class="nav" label="Primary Menu">
+              <li class="nav-item" >
+<a class="nav-link" id="jams_nav_neutrals_link" href="/neutrals/search" target="_self" aria-label="Neutrals">Neutrals</a> 
+</li>
+<li class="nav-item has-dd" >
+<a class="nav-link dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" id="jams_nav_rules_and_clauses_link" href="/adr-rules-procedures/" target="_self" aria-label="Rules & Clauses">Rules & Clauses</a> <span class="mobile-dd-toggle"></span>
+<div id="rules_and_clauses_dropdown" class="dropdown-menu nav-dd" aria-label="Rules & Clauses"><div class="container"><div class="mega-menu"><div class="menu-intro ">
+<h3 class="heading heading-underline">JAMS Clause Workbook</h3>
+<div class="intro-media"><img src="" alt="" class="decoration"></div>
+<div class="description">In every business relationship there is the potential for conflict over contractual agreements or business operations. When such conflicts arise, there is no need to incur the onerous expense and delays involved in traditional litigation. There are readily available alternative dispute resolution procedures that will enable you to resolve your disputes relatively quickly, fairly and cost-effectively.</div>
+<a class="btn btn-primary btn-outline" href="/clauses/">Learn More</a>
+</div>
+<div class="menu-content"><ul role="menu" class="nav nav-mega">
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/adr-rules-procedures/" target="_self" aria-label="Rules & Procedures Overview">Rules & Procedures Overview</a>   </li>
+<li role="none"  class="nav-item"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="javascript:void(0)" target="_self" aria-label="Arbitration Rules & Procedures">Arbitration Rules & Procedures</a> <ul role="menu" aria-label="Arbitration Rules & Procedures" class="nav nav-sub"> <li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/rules-comprehensive-arbitration/" target="_self" aria-label="Comprehensive Rules">Comprehensive Rules</a></li>
+<li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/rules-streamlined-arbitration/" target="_self" aria-label="Streamlined Rules">Streamlined Rules</a></li>
+<li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/arbitration-discovery-protocols/" target="_self" aria-label="Discovery Protocols">Discovery Protocols</a></li>
+<li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/appeal/" target="_self" aria-label="Appeal Procedures">Appeal Procedures</a></li>
+<li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/rules-class-action-procedures/" target="_self" aria-label="Class Action Procedures">Class Action Procedures</a></li>
+<li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/consumer-minimum-standards/" target="_self" aria-label="Consumer Minimum Standards">Consumer Minimum Standards</a></li>
+ </ul> </li>
+<li role="none"  class="nav-item"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/rules-international" target="_self" aria-label="International Rules">International Rules</a> <ul role="menu" aria-label="International Rules" class="nav nav-sub"> <li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/international-mediation-rules/" target="_self" aria-label="International Mediation Rules">International Mediation Rules</a></li>
+<li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/international-arbitration-rules/" target="_self" aria-label="International Arbitration Rules">International Arbitration Rules</a></li>
+ </ul> </li>
+<li role="none"  class="nav-item"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/rules-construction/" target="_self" aria-label="Construction Arbitration">Construction Arbitration</a> <ul role="menu" aria-label="Construction Arbitration" class="nav nav-sub"> <li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/rules-construction-arbitration/" target="_self" aria-label="Construction Arbitration Rules">Construction Arbitration Rules</a></li>
+<li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/gec-expedited-arbitration-rules/" target="_self" aria-label="Expedited Construction Arbitration Rules">Expedited Construction Arbitration Rules</a></li>
+<li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/surety-rules/" target="_self" aria-label="Surety Adjudication Rules">Surety Adjudication Rules</a></li>
+ </ul> </li>
+<li role="none"  class="nav-item"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/rules-employment" target="_self" aria-label="Employment Arbitration Rules">Employment Arbitration Rules</a> <ul role="menu" aria-label="Employment Arbitration Rules" class="nav nav-sub"> <li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/rules-employment-arbitration/" target="_self" aria-label="Employment Arbitration Rules">Employment Arbitration Rules</a></li>
+<li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/employment-minimum-standards/" target="_self" aria-label="Employment Minimum Standards">Employment Minimum Standards</a></li>
+ </ul> </li>
+<li role="none"  class="nav-item"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/rules-download/" target="_self" aria-label="Download Rules / Forms">Download Rules / Forms</a> <ul role="menu" aria-label="Download Rules / Forms" class="nav nav-sub"> <li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/rules-download/" target="_self" aria-label="Download Rules / Forms">Download Rules / Forms</a></li>
+<li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/rules-archive/" target="_self" aria-label="Rules Archive">Rules Archive</a></li>
+ </ul> </li>
+<li role="none"  class="nav-item"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/clauses/" target="_self" aria-label="ADR Sample Clauses">ADR Sample Clauses</a> <ul role="menu" aria-label="ADR Sample Clauses" class="nav nav-sub"> <li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/clauses/" target="_self" aria-label="Clause Workbook (U.S. Domestic)">Clause Workbook (U.S. Domestic)</a></li>
+<li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/international-clause-workbook/" target="_self" aria-label="Clause Workbook (International)">Clause Workbook (International)</a></li>
+<li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/construction-clauses/" target="_self" aria-label="Construction Clauses">Construction Clauses</a></li>
+<li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/employment-clauses/" target="_self" aria-label="Employment Clauses">Employment Clauses</a></li>
+ </ul> </li>
+</ul></div>
+</div></div></div>
+</li>
+<li class="nav-item" >
+<a class="nav-link" id="jams_nav_locations_link" href="/locations/" target="_self" aria-label="Locations">Locations</a> 
+</li>
+<li class="nav-item has-dd" >
+<a class="nav-link dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" id="jams_nav_adr_services_link" href="/adr/" target="_self" aria-label="ADR Services">ADR Services</a> <span class="mobile-dd-toggle"></span>
+<div id="adr_services_dropdown" class="dropdown-menu nav-dd" aria-label="ADR Services"><div class="container"><div class="mega-menu"><div class="menu-intro ">
+<h3 class="heading heading-underline">Virtual Mediation & Arbitration</h3>
+<div class="intro-media"><img src="" alt="" class="decoration"></div>
+<div class="description">JAMS mediators and arbitrators are available to resolve disputes remotely. We offer a number of videoconference options for mediations and arbitrations based on case size and complexity.</div>
+<a class="btn btn-primary btn-outline" href="/online">Learn More</a>
+</div>
+<div class="menu-content"><ul role="menu" class="nav nav-mega">
+<li role="none"  class="nav-item"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/adr/" target="_self" aria-label="Alternative Dispute Resolution">Alternative Dispute Resolution</a> <ul role="menu" aria-label="Alternative Dispute Resolution" class="nav nav-sub"> <li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/adr/" target="_self" aria-label="What do we do?">What do we do?</a></li>
+<li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/cle" target="_self" aria-label="Educational Programs & CLEs">Educational Programs & CLEs</a></li>
+<li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/adr-strategies" target="_self" aria-label="In-House Counsel ADR Strategies">In-House Counsel ADR Strategies</a></li>
+<li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/adr-forms/" target="_self" aria-label="Forms & Resources">Forms & Resources</a></li>
+<li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/adr-faqs/" target="_self" aria-label="FAQs">FAQs</a></li>
+ </ul> </li>
+<li role="none"  class="nav-item"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/mediation" target="_self" aria-label="Mediation">Mediation</a> <ul role="menu" aria-label="Mediation" class="nav nav-sub"> <li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/mediation" target="_self" aria-label="Mediation Services">Mediation Services</a></li>
+<li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/mediation-defined/" target="_self" aria-label="What is Commercial Mediation?">What is Commercial Mediation?</a></li>
+<li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/mediation-guide/" target="_self" aria-label="What Happens in Mediation?">What Happens in Mediation?</a></li>
+<li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/mediators-ethics/" target="_self" aria-label="Mediators Ethics Guidelines">Mediators Ethics Guidelines</a></li>
+ </ul> </li>
+<li role="none"  class="nav-item"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/arbitration" target="_self" aria-label="Arbitration">Arbitration</a> <ul role="menu" aria-label="Arbitration" class="nav nav-sub"> <li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/arbitration" target="_self" aria-label="Arbitration (North America)">Arbitration (North America)</a></li>
+<li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/arbitration-international" target="_self" aria-label="Arbitration (International)">Arbitration (International)</a></li>
+ </ul> </li>
+<li role="none"  class="nav-item"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/neutral-analysis" target="_self" aria-label="Neutral Analysis">Neutral Analysis</a> <ul role="menu" aria-label="Neutral Analysis" class="nav nav-sub"> <li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/appellate" target="_self" aria-label="Appellate Services">Appellate Services</a></li>
+ </ul> </li>
+<li role="none"  class="nav-item"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/online" target="_self" aria-label="Virtual Mediation & Arbitration">Virtual Mediation & Arbitration</a> <ul role="menu" aria-label="Virtual Mediation & Arbitration" class="nav nav-sub"> <li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/faq-virtual-adr" target="_self" aria-label="Virtual ADR & Security FAQ">Virtual ADR & Security FAQ</a></li>
+ </ul> </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/cacourtreference" target="_self" aria-label="California Court Reference Services">California Court Reference Services</a>   </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="javascript:void(0)" target="_self" aria-label="Business Interruption">Business Interruption</a>   </li>
+<li role="none"  class="nav-item"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="https://www.jamspathways.com/" target="_self" aria-label="JAMS Pathways™">JAMS Pathways™</a> <ul role="menu" aria-label="JAMS Pathways™" class="nav nav-sub"> <li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="https://www.jamspathways.com/services/conflict-resolution" target="_self" aria-label="Conflict Prevention & Resolution Program">Conflict Prevention & Resolution Program</a></li>
+<li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="https://www.jamspathways.com/services/trainingkeynotes" target="_self" aria-label="Workplace Performance Training & Keynotes">Workplace Performance Training & Keynotes</a></li>
+ </ul> </li>
+</ul></div>
+</div></div></div>
+</li>
+<li class="nav-item has-dd" >
+<a class="nav-link dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" id="jams_nav_practice_areas_link" href="/practices/" target="_self" aria-label="Practice Areas">Practice Areas</a> <span class="mobile-dd-toggle"></span>
+<div id="practice_areas_dropdown" class="dropdown-menu nav-dd" aria-label="Practice Areas"><div class="container"><div class="mega-menu"><div class="menu-intro ">
+<h3 class="heading heading-underline">JAMS Solutions</h3>
+<div class="intro-media"><img src="" alt="" class="decoration"></div>
+<div class="description">Traditional mediation and arbitration are not the only tools available through JAMS. In some situations other approaches are more appropriate, effective and/or economical. These options, customized for specific organizations, industries and events, can prevent conflicts before they arise or provide more flexible, scalable and creative resolution paths when conflicts do emerge.</div>
+<a class="btn btn-primary btn-outline" href="/solutions">Why JAMS Solutions?</a>
+</div>
+<div class="menu-content"><ul role="menu" class="nav nav-mega">
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/practices/" target="_self" aria-label="JAMS Practice Areas">JAMS Practice Areas</a>   </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/appellate" target="_self" aria-label="Appellate">Appellate</a>   </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/bankruptcy" target="_self" aria-label="Bankruptcy">Bankruptcy</a>   </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/classaction" target="_self" aria-label="Class Action & Mass Tort">Class Action & Mass Tort</a>   </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/construction" target="_self" aria-label="Construction">Construction</a>   </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/cybersecurity" target="_self" aria-label="Cybersecurity & Privacy">Cybersecurity & Privacy</a>   </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/disaster-relief" target="_self" aria-label="Disaster Relief">Disaster Relief</a>   </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/employment" target="_self" aria-label="Employment">Employment</a>   </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/energy" target="_self" aria-label="Energy">Energy</a>   </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/entertainment" target="_self" aria-label="Entertainment & Sports">Entertainment & Sports</a>   </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/estate-and-probate" target="_self" aria-label="Estate/Probate/Trust">Estate/Probate/Trust</a>   </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/family" target="_self" aria-label="Family Law">Family Law</a>   </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/federal" target="_self" aria-label="Federal">Federal</a>   </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/financial-markets" target="_self" aria-label="Financial Markets">Financial Markets</a>   </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/healthcare" target="_self" aria-label="Health Care">Health Care</a>   </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/highereducation" target="_self" aria-label="Higher Education & Title IX">Higher Education & Title IX</a>   </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/insurance" target="_self" aria-label="Insurance">Insurance</a>   </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/intellectual-property" target="_self" aria-label="Intellectual Property">Intellectual Property</a>   </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/global/" target="_self" aria-label="International & Cross-Border">International & Cross-Border</a>   </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/lifesciences" target="_self" aria-label="Life Sciences">Life Sciences</a>   </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/personal-injury" target="_self" aria-label="Personal Injury & Tort">Personal Injury & Tort</a>   </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/realestate" target="_self" aria-label="Real Estate & Real Property">Real Estate & Real Property</a>   </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/smartcontracts" target="_self" aria-label="Smart Contracts & Blockchain">Smart Contracts & Blockchain</a>   </li>
+</ul></div>
+</div></div></div>
+</li>
+<li class="nav-item has-dd" >
+<a class="nav-link dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" id="jams_nav_news_and_insights_link" href="/blog/" target="_self" aria-label="News & Insights">News & Insights</a> <span class="mobile-dd-toggle"></span>
+<div id="news_and_insights_dropdown" class="dropdown-menu nav-dd" aria-label="News & Insights"><div class="container"><div class="mega-menu"><div class="menu-intro ">
+<h3 class="heading heading-underline">JAMS ADR Insights</h3>
+<div class="intro-media"><img src="" alt="" class="decoration"></div>
+<div class="description">Our articles and thought leadership serve to engage our clients, the legal community and the public in a discussion about alternative dispute resolution. As leaders in mediation, arbitration and more, we strive to remain at the forefront of legal developments, trends and news in areas of law that pertain to ADR.</div>
+<a class="btn btn-primary btn-outline" href="/blog/">Explore Insights</a>
+</div>
+<div class="menu-content"><ul role="menu" class="nav nav-mega">
+<li role="none"  class="nav-item"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/blog/" target="_self" aria-label="Articles & Insights">Articles & Insights</a> <ul role="menu" aria-label="Articles & Insights" class="nav nav-sub"> <li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/blog/" target="_self" aria-label="JAMS ADR Insights">JAMS ADR Insights</a></li>
+<li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="https://www.jamsadr.com/blog/category/international" target="_self" aria-label="JAMS International Insights">JAMS International Insights</a></li>
+<li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="/blog/category/podcasts" target="_self" aria-label="Podcasts">Podcasts</a></li>
+ </ul> </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/news/" target="_self" aria-label="News & Press Releases">News & Press Releases</a>   </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="/events/" target="_self" aria-label="Events & Webinars">Events & Webinars</a>   </li>
+</ul></div>
+</div></div></div>
+</li>
+<li class="nav-item has-dd" >
+<a class="nav-link dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" id="jams_nav_JAMS Pathways_link" href="https://www.jamspathways.com/" target="_self" aria-label="JAMS Pathways™">JAMS Pathways™</a> <span class="mobile-dd-toggle"></span>
+<div id="JAMS Pathways_dropdown" class="dropdown-menu nav-dd" aria-label="JAMS Pathways™"><div class="container"><div class="mega-menu"><div class="menu-intro ">
+<h3 class="heading heading-underline">JAMS Pathways™ - Turn the Corner on Conflict</h3>
+<div class="intro-media"><img src="" alt="" class="decoration"></div>
+<div class="description">JAMS Pathways was established to fill the need for skilled early conflict intervention. Our highly trained facilitators create a safe space and guardrails for your team to have challenging conversations and design their own workable solutions to advance organizational goals.</div>
+</div>
+<div class="menu-content"><ul role="menu" class="nav nav-mega">
+<li role="none"  class="nav-item"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="https://www.jamspathways.com/services/" target="_self" aria-label="JAMS Pathways™ Services">JAMS Pathways™ Services</a> <ul role="menu" aria-label="JAMS Pathways™ Services" class="nav nav-sub"> <li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="https://www.jamspathways.com/services/conflict-resolution" target="_self" aria-label="Conflict Prevention & Resolution Program">Conflict Prevention & Resolution Program</a></li>
+<li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="https://www.jamspathways.com/services/trainingkeynotes" target="_self" aria-label="Workplace Performance Training & Keynotes">Workplace Performance Training & Keynotes</a></li>
+ </ul> </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="https://www.jamspathways.com/team/" target="_self" aria-label="JAMS Pathways™ Team">JAMS Pathways™ Team</a>   </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="https://www.jamspathways.com/successstories" target="_self" aria-label="JAMS Pathways™ Success Stories">JAMS Pathways™ Success Stories</a>   </li>
+<li role="none"  class="nav-item nav-item-single"><a role="menuitem" class="nav-link" aria-haspopup="true" aria-expanded="true" href="https://www.jamspathways.com/news-insights/" target="_self" aria-label="News & Insights">News & Insights</a>   </li>
+</ul></div>
+</div></div></div>
+</li>
+            </ul>
+          </nav>
+          <div class="search" id="container-search">
+						<form class="search-form search-form-mobile" id="form-search" action="/search" autocomplete="on">
+              <div class="form-group">
+                 <input class="input search-input" type="search" name="q" id="input-search" list="input-search-popular-terms" placeholder="Search our website"/>
+                <datalist id="input-search-popular-terms">
+                </datalist>
+                <button type="submit" value="" class="btn search-submit" id="btn-search_submit" aria-label="Search Site">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg></button>
+              </div>
+            </form>
+            <details class="dropdown search-dropdown">
+              <summary class="trigger">
+                <div variant="button" class="browse-topics">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z">
+              </path>
+            </svg>
+                </div>
+              </summary>
+              <div class="body">
+                <form class="search-form" id="form-search" action="/search">
+                  <div class="form-group">
+                    <input type="search" id="input-search" list="input-search-popular-terms" name="q" class="input search-input" placeholder="Search Site">
+            <button type="submit" class="btn search-submit" id="btn-search-submit" aria-label="Search Site">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z">
+              </path>
+            </svg>
+            </button>
+                    <datalist id="input-search-popular-terms">
+                    </datalist>
+                  </div>
+                </form>
+              </div>
+            </details>
+          </div>
+        </div>
+      </div>
+    </header>
+      
+    
+    
+    
+    <main class="main main-home general-content" id="main-content">
+       
+<!-- Page Content -->
+<section class="section section-breadcrumbs">
+  <div class="container">
+    <nav aria-label="JAMS Breadcrumb" class="breadcrumb mobile-slider">
+      <ul class="nav">
+        <li class="nav-item">
+          <a href="/" class="nav-link">
+            <span class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path>
+              </svg>
+            </span>
+            <span class="sr-only">Terms of Service</span></a>
+        </li>
+        <li class="nav-item">
+          <span aria-current="page" class="nav-current">Terms of Service</span>
+        </li>
+      </ul>
+    </nav>
+   <!-- Page Tools, ID: 205745 --><div class="page-tools">      <button type="button" class="btn btn-ghost btn-small icon-print" id="btn-print-page" title="Print Page">        <span class="sr-only">Print Page</span>        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24" height="24">          <title>Print Page</title>          <path fill="currentColor" d="M448 192V77.25c0-8.49-3.37-16.62-9.37-22.63L393.37 9.37c-6-6-14.14-9.37-22.63-9.37H96C78.33 0 64 14.33 64 32v160c-35.35 0-64 28.65-64 64v112c0 8.84 7.16 16 16 16h48v96c0 17.67 14.33 32 32 32h320c17.67 0 32-14.33 32-32v-96h48c8.84 0 16-7.16 16-16V256c0-35.35-28.65-64-64-64zm-64 256H128v-96h256v96zm0-224H128V64h192v48c0 8.84 7.16 16 16 16h48v96zm48 72c-13.25 0-24-10.75-24-24 0-13.26 10.75-24 24-24s24 10.74 24 24c0 13.25-10.75 24-24 24z"></path>        </svg>      </button>      <button type="button" class="btn btn-link btn-small icon-pdf" id="btn-pdf-download" title="Download page as PDF">        <span class="sr-only">Download page as PDF</span>        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 93.77 134.3" width="24" height="24" fill="currentColor">          <title>Download page as PDF</title>          <path d="M64.22,134.28v-31H86V109h-15v7.18h13v5.31h-13V134.3Zm-32.22,0v-31H45.39a16.22,16.22,0,0,1,5.6,1,12.3,12.3,0,0,1,4.47,2.87,13.43,13.43,0,0,1,3,4.77,19.5,19.5,0,0,1,1.06,6.77,21.28,21.28,0,0,1-.87,6.24,14,14,0,0,1-2.63,5,12.28,12.28,0,0,1-4.4,3.28,14.92,14.92,0,0,1-6.19,1.2Zm6.83-5.74h6.08a9.12,9.12,0,0,0,2.88-.49,6.3,6.3,0,0,0,2.47-1.59,7.76,7.76,0,0,0,1.74-2.9,12.84,12.84,0,0,0,.66-4.35,18.86,18.86,0,0,0-.48-4.23,8.35,8.35,0,0,0-1.5-3.24,6.88,6.88,0,0,0-2.76-2.07,11.13,11.13,0,0,0-4.24-.71H38.81ZM3,134.28v-31H17a13.21,13.21,0,0,1,5,.85,9.29,9.29,0,0,1,3.32,2.24,8.43,8.43,0,0,1,1.87,3.17,11.59,11.59,0,0,1,0,7.36,8.47,8.47,0,0,1-1.87,3.2A9.36,9.36,0,0,1,22,122.3a13,13,0,0,1-5,.84H9.86v11.14Zm6.84-16.42h5.31a14.35,14.35,0,0,0,2.26-.18,5.29,5.29,0,0,0,1.93-.67,3.58,3.58,0,0,0,1.32-1.41,5.86,5.86,0,0,0,0-4.78,3.68,3.68,0,0,0-1.32-1.42,5.27,5.27,0,0,0-1.93-.66,12.3,12.3,0,0,0-2.26-.18H9.84Zm-7.42-23A4.41,4.41,0,0,1,0,94.16V65.61a4.57,4.57,0,0,1,2.42-.69H29.87l9.18,9.18a9.59,9.59,0,0,0,13.57,0h0l9.18-9.18H89.28a4.48,4.48,0,0,1,4.49,4.47v21a4.48,4.48,0,0,1-4.47,4.49H2.42Zm72.62-9a3.75,3.75,0,1,0,3.74-3.74h0A3.75,3.75,0,0,0,75,85.84Zm-12,0a3.74,3.74,0,1,0,3.74-3.74h0a3.75,3.75,0,0,0-3.75,3.7Zm-19.77-16L14.8,41.33A3.73,3.73,0,0,1,17.44,35H33.87V3.5A4.46,4.46,0,0,1,35.53,0H56.15a4.49,4.49,0,0,1,1.68,3.5V35H74.25a3.73,3.73,0,0,1,2.64,6.38L48.41,69.83a3.6,3.6,0,0,1-5.09,0v0Z"></path>        </svg>      </button>    </div><!-- ./Page Tools, ID: 205745 -->  </div>
+</section>
+	<!-- Compact Hero Slider, ID: 178971 -->
+      <section class="section section-hero-slider" id="section-hero-slider">
+        <div class="hero-slider-wrapper auto compact" data-duration="5">
+          <div class="hero-slider-slides">
+                  <div class="hero-slider-slide">
+                    <div class="hero-slider-slide-media">
+                      <picture>
+                          <source media="(max-width: 480px)" srcset="/images/slider/about-slider.jpg">
+                          <source media="(min-width: 1025px)" srcset="/images/slider/about-slider.jpg">
+                          <img src="/images/slider/about-slider.jpg" alt="Terms of Service" loading="lazy"/>
+                        </picture>
+                    </div>
+                    <div class="hero-slider-slide-content">
+                      <div class="container">
+                        <div class="slide-body">
+                          <header class="slide-header">
+                              <h2 class="heading-large hero-title">
+                                Terms of Service
+                              </h2>
+                              <p class="slide-summary"></p>
+                          </header>
+
+                          <div class="slide-buttons">
+                          <!-- CTA List, ID: 177080 --><!-- ./CTA List, ID: 177080 -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="slider-nav">
+                    <div class="container">
+                    
+                    <div class="slider-nav-item" style="display: none;">
+                      <button type="button" class="slider-nav-btn">
+                        <div class="slider-nav-btn-progress"></div>
+                        <div class="slider-nav-btn-title">Terms of Service</div>
+                      </button>
+                    </div>
+                    </div>
+                    <div class="mobile-title" style="display: none">
+                      <p>
+                        Next:
+                        <span id="slider-next-title"></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section><!-- ./Compact Hero Slider, ID: 178971 -->	
+<div class="general-content-detail">
+<section class="section section-landing-panels">
+  <div class="container section-container">
+    <div class="tabs">
+      <div role="tablist" aria-label="JAMS Landing Tabs" class="tablist mobile-slider">
+            
+          </div>
+    <div class="tabs-slider-controls">
+      <button type="button" class="btn slider-control slider-prev" aria-label="Previous Tabs" disabled="">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M15 19l-7-7 7-7"></path>
+        </svg>
+      </button>
+      <button type="button" class="btn slider-control slider-next" aria-label="Next Tabs" disabled="">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+      
+<!--- overview -->
+	<div id="overview-panel" role="tabpanel" tabindex="0" aria-labelledby="overview-tab" class="tab-panel overview-panel">
+    <div class="container section-container">
+      <!--DragDropZone-->
+
+<!--ContentBlockSection-->
+<!-- Content Block Section, ID: 178896 --><section class="section section-landing-panels"> <div class="overview-panel">   <div class="container section-container">     <!-- Content Blocks List, ID: 181742 --><section class="panel-section">
+<!-- Panel Title, ID: 178909 --><!-- ./Panel Title, ID: 178909 -->
+<div class="panel-section-content">
+<div class="panel-body">
+<!-- WYSIWYG Panel, ID: 178838 --><div class="panel-body">     <!-- Panel Title, ID: 178909 --><!-- ./Panel Title, ID: 178909 -->    <p align="center"><strong>Terms of Service</strong></p>
+<p align="right" style="text-align: right;"><strong>November 1, 2021<br/></strong></p>
+<p>Welcome to the JAMS website located at www.JAMSADR.com (referred to herein as the &ldquo;<i>Site</i>&rdquo;) (JAMS refers to the Site and the services provided through the Site, collectively, as the &ldquo;<i>Online Services</i>&rdquo;). These Terms of Service (&ldquo;<i>Terms of Service</i>&rdquo;) set forth an agreement between You and JAMS (&ldquo;<i>JAMS</i>&rdquo;) governing Your use of the Online Services. &ldquo;<i>You,</i>&rdquo;&nbsp; &ldquo;<i>Your</i>&rdquo; or &ldquo;<i>User</i>&rdquo; refers to you as an individual who browses the Site or uses the Online Services, and if you are using the Online Services as an employee of or otherwise on behalf of an organization or entity, the terms also refer to and bind your organization or entity.</p>
+<p>By using any of the Online Services, creating a User account or submitting information on a case to a JAMS resolution center, you signify your acceptance of these Terms of Service to the maximum extent permitted by law. You may only use the Online Services, open an account and/or submit information about a case to JAMS if you are at least 18 years old. Please do not attempt to use any of the Online Services if you are younger than 18.</p>
+<p>JAMS has the right to modify or update these Terms of Service at any time without providing notice. Any additional or different terms in these Terms of Service shall be effective upon being posted on the Site. Your continued use of any of the Online Services following the posting of updated Terms of Service constitutes your acceptance of those additional or different terms.</p>
+<p>JAMS reserves the right to add, change, modify, suspend or discontinue all or any of the Online Services, in its sole discretion, at any time. The Online Service most central to use of JAMS for alternative dispute resolution (ADR) case management is JAMS Access, which facilitates case management via online document management and multi-party communication, &nbsp;and is accessed from the Site via the JAMS Access portal, as described below. Unless expressly stated otherwise in the applicable Online Service, the use of any new Online Services, including the availability of new services or products through the Site, shall be subject to these Terms of Service. In addition, JAMS also may impose limits on any of the Online Services or restrict Your access to the Site or portions thereof in its sole discretion without notice or liability. JAMS reserves the right to refuse to provide You with access to any of the Online Services or to refuse to allow You to create a User account for any reason.</p>
+<p><strong>JAMS Access </strong></p>
+<p>JAMS Access, which you reach via the JAMS Access portal on the Site, is located at<a href="https://access.jamsadr.com">https://access.jamsadr.com</a> and is a state-of-the-art Online Service that facilitates virtually all case management aspects of Your alternative dispute resolution/ADR (e.g., arbitration/mediation) matter.&nbsp; Once You log into the account You have created on the referenced portal, upload and download case documents and materials, and depending on the type of ADR and the nature of Your communication, You can communicate with Your side of the case only, or with the opposing party only or with all parties (including the Neutral) via the online messaging function (the case manager is privy to all communications), view Your account invoices and statements (while Neutrals can input and view their timesheets but not party invoices) and initiate payment (which is actually handled off JAMS&rsquo;s Site directly with our payment processor for purposes of security and efficiency.&nbsp; Users of JAMS Access begin with an overview home page, giving them navigation options to various JAMS Access channels such as recently viewed cases, messages, uploaded documents related to their case, invoices and account issues, and the case calendar with upcoming dates of which they may need to be aware, which is refreshed every 30 minutes. The User can change his/her password in account settings, indicate how often he/she wants email notifications, and express informational preferences/interests that will tailor what other information JAMS will provide to them about JAMS and areas of interest to the User.&nbsp;JAMS Access has additional Terms to which You are subject when You use it (often as a case participant), and in the event of any conflict or inconsistency between these Terms of Service and the JAMS Access Additional Terms of Service, the latter shall prevail with respect to use of JAMS Access.</p>
+<p><strong>Proprietary Rights</strong></p>
+<p>You acknowledge and agree that as between You and JAMS, JAMS and its licensors retain all right, title and interest in and to all data and information (excluding data and information that you provide), content and materials provided on the Site, including, without limitation, text, images, graphics, page headers, other content, any trademarks, service marks and logo of JAMS (collectively, &ldquo;<i>Content</i>&rdquo;), the selection and arrangement of elements displayed on the Site, the compilation of all Content on the Site and the business processes, procedures, methods and techniques used in the Online Services) and all associated patent rights, copyright rights, trademark rights, trade secret rights and other intellectual property and proprietary rights recognized anywhere in the world (&ldquo;<i>Intellectual Property</i>&rdquo;).</p>
+<p><strong>Limited License</strong></p>
+<p>JAMS grants You a limited license to access and use the Online Services for Your personal use, subject to all of the terms and conditions of these Terms of Service.&nbsp;<strong>You may not:</strong>&nbsp;(i) remove any logos, or trademark or copyright notices or any other notice contained in any Content or element provided on the Site, (ii) reproduce, download, modify, publish, distribute, transmit, disseminate, broadcast, transfer, license, sell, rent, lease, adapt, create derivative works of, publicly display or perform, or in any way commercially exploit Content or Online Services without JAMS&rsquo;s prior written consent (except (a) as otherwise facilitated or indicated regarding JAMS Access, and (b) that You may print copies of individual screens on the Site as well as Content such as newsletters and documents that show a Print icon for Your internal personal or business use), (iii) use any circumvention tools or any metatags or other hidden text utilizing JAMS&rsquo;s name, logo, URL or the name of any of the Online Services without JAMS&rsquo;s prior written consent, or (iv) disassemble, decompile or reverse engineer any of the Content, materials or underlying software made available on or through the Site or used to provide any of the Online Services.</p>
+<p><strong>Accounts and Security; Confidentiality</strong></p>
+<p>To use certain Online Services, such as JAMS Access, You may be directed to register with the Site and create an account or otherwise provide JAMS with certain information about Yourself and Your case (if applicable). By submitting Your information through the Site, subject to any confidentiality agreement with JAMS (if applicable), You grant JAMS a perpetual, irrevocable, worldwide, royalty-free, non-exclusive license to use, reproduce, transmit, and display this information in connection with JAMS&rsquo;s operation of the Site and/or performance of the Online Services for You and others You may designate. As part of the registration process, You will be asked to submit such information as Your name, title, email address, mobile phone number, and to choose a user name and password. If You submit information on a case to JAMS, You may also be asked to provide Your company&rsquo;s name, mailing address, phone number, fax number, email address and web address, case information, identity of the parties to the dispute and Your preferences for the hearing format, JAMS resolution center, JAMS Neutral (the arbitrators or mediators who preside over a given JAMS case are called &ldquo;Neutrals&rdquo;) and hearing dates for the case. You represent and warrant that all information You provide to JAMS for purposes of creating an account (&ldquo;<i>Registration Information</i>&rdquo;) will be true, accurate, current and complete and Your failure to comply with this warranty shall constitute a breach of these Terms of Service and may result in the immediate termination of Your account. You shall (i) promptly update Your Registration Information to keep it true, accurate, current and complete, and (ii) maintain the confidentiality of Your password.</p>
+<p>Except for confidential information received in connection with any dispute resolution proceedings/cases, JAMS does not wish to receive any confidential or proprietary information from You via the Site or Online Services, whether by email, via the Online Services, or in any other manner. You agree that any confidential information You provide outside of such proceedings, including without limitation any concepts, ideas, plans, techniques or any other information or content that You provide, may be used by JAMS in any manner without restriction.</p>
+<p>You shall not (a) select or use the email address or user name of another person with the intent to impersonate that person, (b) use a name subject to the rights of any other person without authorization, (c) use an email address or user name that is profane, offensive or otherwise inappropriate or (d) allow any other party to use Your account and/or password.</p>
+<p>You agree to immediately notify JAMS of any known or suspected unauthorized use(s) of Your account or any known or suspected breach of security, including loss, theft or unauthorized disclosure of Your password. You understand and agree that You shall be liable for all activities that occur under any account created for Your use, even if such activities were not committed by You. JAMS is not responsible for any loss or damage arising from Your failure to maintain the confidentiality of Your password.</p>
+<p><strong>Privacy</strong></p>
+<p>All information about You including Your Registration Information and any information stored or transmitted in any way on the Site or through the use of the Online Services is subject to JAMS&rsquo;s&nbsp;<a href="https://www.jamsadr.com/privacy-policy/" target="_blank" title="JAMS Privacy Policy">Privacy Policy</a>.</p>
+<p><strong>Use of the Online Services</strong></p>
+<p>You shall comply with all applicable laws, statutes, ordinances and regulations in Your use of the Online Services. JAMS may immediately terminate Your account, or suspend Your access to Your account, in its sole discretion and without notice, for conduct that JAMS believes is: (i) illegal, fraudulent, harassing or abusive, (ii) a violation of these Terms of Service or any other policies or guidelines posted on the Site, or (iii) harmful to other users, third parties, or JAMS&rsquo;s business. Use of an account for illegal, fraudulent or abusive purposes may be referred to law enforcement authorities without notice. In addition, JAMS may terminate Your account if You file a claim against JAMS, or a claim which in any way involves JAMS. Upon JAMS&rsquo;s termination of Your account for any of the forgoing reasons, (a) JAMS will have no obligation to notify any third parties regarding such termination, and (b) You will be responsible for any damages that may result or arise out of termination of Your account.</p>
+<p>You understand that You, and not JAMS, are solely responsible for any information submitted about a case (&ldquo;Case Information&rdquo;) through the use of any of the Online Services. JAMS does not control the Case Information posted on the Site or transmitted through the use of any of the Online Services and, as such, does not guarantee the accuracy, reliability or quality of such Case Information. JAMS has no obligation to pre-screen Case Information that is displayed on the Site or transmitted through the use of any of the Online Services. In general, JAMS will not be liable in any way for any Case Information, unless otherwise indicated in these or other JAMS Terms of Service, including, but not limited to, any errors or omissions in any Case Information, or any loss or damage of any kind incurred as a result of Your use or loss of use of any Case Information posted, emailed, transmitted or otherwise made available on the Site or through the Online Services. You agree that JAMS may, in its sole discretion, refuse to post, store or transmit any Case Information submitted by You and may move, remove, edit or modify any such Case Information for any reason at any time. Additional Terms of Service are applicable to use of JAMS Access as indicated therein.&nbsp;</p>
+<p>When using the Online Services, You agree to act reasonably and responsibly, and to use commercially reasonable efforts not to:</p>
+<ul type="disc">
+<li>upload, post, email, transmit, display on the Site or make available through the use of any of the Online Services: (a) any information that is fraudulent, misleading, inaccurate, unlawful, harmful, threatening, abusive, harassing, defamatory, vulgar, obscene, pornographic, profane, invasive of another's privacy, hateful, or otherwise objectionable on the basis of race, ethnicity, religion or sexual orientation, including any communication that constitutes (or encourages conduct that would constitute) a criminal offense, gives rise to civil liability or otherwise violates any applicable local, state, or national law or regulation, (b) any information that You do not have a right to make available under applicable law or under contractual or fiduciary relationships (such as inside information, proprietary and confidential information obtained as part of employment relationships or under nondisclosure agreements), (c) any information that infringes, violates, or misappropriates any patent, trademark, trade secret, copyright, privacy, publicity or other rights of any third party or entity, (d) any unsolicited or unauthorized advertising, promotional materials, junk mail, spam, chain letters, pyramid schemes, or any other improper form of solicitation, or (e) any content or material that contains any virus, Trojan horse, worm, time bomb, bot or spider or any other computer code, files or programs designed to damage, interfere with, intercept, misappropriate, gain control over or limit the functionality of any computer, computer network, communications device, communications system, data or personal information;</li>
+<li>use any of the Online Services (i) to harm minors in any way, (ii) to impersonate any person or entity, or otherwise misrepresent Your affiliation with a person or entity, (iii) for any commercial purpose or the benefit of any third party or any manner not permitted by these Terms of Service, or (iv) to violate any applicable local, state, or national laws or regulations including, but not limited to, regulations promulgated by the U.S. Securities and Exchange Commission, or any rules or regulations of any national or other securities exchange;</li>
+<li>remove any proprietary notices from the Site;</li>
+<li>hack or seek unauthorized access to or compromise the integrity of the Site and Online Services (whether or not to obtain personal information), or breach or attempt to breach the security of the Site, Online Services and related servers and infrastructure, or attempt to disrupt any Online Services, servers or networks; harvest or collect or store any personal data or information about Users, or attempt to do so.</li>
+</ul>
+<p>&nbsp;</p>
+<p>However, JAMS acknowledges that when You use JAMS Access as a party or representing a party to an ADR case or proceeding, You may believe that You need to make a submission of Case Information that might violate one or more of the restrictions set forth.&nbsp; JAMS recommends that if You find Yourself in such a situation, You discuss Your concern with the Neutral handling Your case prior to making such submission, and follow his or her guidance, primarily to avoid a claim of violation by an adverse party to your case. &nbsp;JAMS would most likely handle any claim by an offended party relating to Your submission of Case Information in the same manner, by bringing it to the attention of the Neutral handling Your case.&nbsp;</p>
+<p>You acknowledge, consent and agree that JAMS may access, preserve and disclose account information and/or Registration Information or Case Information that You provide if JAMS is required to do so by law or if it believes in good faith that such access, preservation or disclosure is reasonably necessary to (A) comply with legal process, (B) enforce these Terms of Service, (C) respond to claims that any Registration Information or Case Information violates the rights of any third parties, (D) respond to Your requests for customer service, or (E) protect the rights, property or personal safety of JAMS, its employees, partners, agents or members of the public.</p>
+<p><strong>Links to Other Websites</strong></p>
+<p>The Site may contain links to other websites and resources. Such links are merely a convenience for Users, and the inclusion of any link does not constitute or imply any affiliation, recommendation, endorsement or sponsorship by JAMS of such websites or any content contained thereon. JAMS has no obligation for any content, acts or omissions on such websites. You will need to review and observe the privacy policy and terms of use or service that govern Your experience on any third-party websites.</p>
+<p><strong>Warranty Disclaimers</strong></p>
+<p>THE SITE AND THE ONLINE SERVICES ARE PROVIDED ON AN &ldquo;AS IS&rdquo; AND &ldquo;AS AVAILABLE&rdquo; BASIS WITHOUT ANY WARRANTY OR CONDITION, EXPRESS OR IMPLIED. TO THE FULL EXTENT PERMITTED BY APPLICABLE LAW, JAMS SPECIFICALLY DISCLAIMS ALL WARRANTIES INCLUDING, WITHOUT LIMITATION, IMPLIED WARRANTIES OF TITLE, PERFORMANCE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. FURTHER, THE INFORMATION ON THE SITE SHALL IN NO EVENT BE CONSIDERED OR RELIED UPON AS LEGAL ADVICE OR AS A SUBSTITUTE FOR SEEKING THE ADVICE AND COUNSEL OF A LICENSED ATTORNEY.</p>
+<p>Subject to any Additional Terms of Service applicable to use of JAMS Access, JAMS makes no representation or warranty that (i) the Site or the Online Services will meet Your expectations or requirements, (ii) the Site or the Online Services will be available, uninterrupted, timely, secure, accurate, complete or error-free, (iii) any results or information that may be obtained from the use of the Site or the Online Services will be accurate, timely, complete or reliable, (iv) any errors or defects in the Site or the Online Services will be corrected, or (v) the Site and the Online Services and/or the server that makes the Site and the Online Services available are free of viruses, clocks, timers, counters, worms, software locks, Trojan horses, trap doors, time bombs or any other harmful codes, instructions, programs or components. Operation of the Site and the Online Services may be interfered with by numerous factors outside of JAMS&rsquo;s control including, but not limited to, telecommunications network disruptions. JAMS is not responsible and will have no liability for any failures of the Internet or any data or telecommunications equipment, system or network used in connection with the Site or the Online Services. You are entirely responsible for Your access to the Internet, including payment of all related fees, in order to access the Site.</p>
+<p><u>Informational Site; No Legal Advice</u>.&nbsp; This Site is not a solicitation of business and is for informational purposes only.&nbsp; All Content on the JAMS website is intended to provide general information about JAMS and an opportunity for interested persons to contact JAMS.&nbsp; The Site Content is not offered as legal advice or legal opinion and it should not be relied upon for any specific situation.&nbsp; JAMS Neutrals listed on the Site are not engaged in the practice of law by virtue of such listing, and no attorney-client relationship is intended or created.&nbsp; While JAMS endeavors to keep the information updated and correct, JAMS makes no representations or warranties of any kind, express or implied, about the completeness, accuracy, or reliability of the Content and other information contained on the Site. You should conduct Your own investigation and research regarding any and all information on this Site before making the decision to utilize the Site or any Online Services, including investigation and research of JAMS Neutrals.</p>
+<p>You acknowledge that the entire risk arising out of the use or performance of the Site or any of the Online Services remains with You to the maximum extent permitted by law.</p>
+<p>Some jurisdictions do not allow the disclaimer of implied warranties, so the foregoing disclaimers may not apply to You.</p>
+<p>YOU ACKNOWLEDGE AND AGREE THAT YOUR SOLE REMEDY FOR ANY PROBLEMS OR DISSATISFACTION WITH THE SITE OR ANY OF THE ONLINE SERVICES IS TO TERMINATE YOUR ACCOUNT AND DISCONTINUE USE OF THE SITE AND THE ONLINE SERVICES.</p>
+<p><strong>Limitation of Liability</strong></p>
+<p>IN NO EVENT SHALL JAMS OR ANY OF ITS DIRECTORS, OFFICERS, MEMBERS, EMPLOYEES/ASSOCIATES, NEUTRALS, AGENTS, CONSULTANTS, PARENTS, AFFILIATES, SUCCESSORS, ASSIGNS OR SERVICE/CONTENT PROVIDERS BE LIABLE FOR ANY INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, EXEMPLARY OR PUNITIVE DAMAGES ARISING FROM, OR DIRECTLY OR INDIRECTLY RELATED TO, THE USE OF, THE INABILITY TO USE, OR RELIANCE ON THE SITE OR ANY ONLINE SERVICES, OR THE CONTENT, MATERIALS AND FUNCTIONS RELATED THERETO, INCLUDING, WITHOUT LIMITATION, LOSS OF REVENUE, ANTICIPATED PROFITS, BUSINESS, PROGRAMS OR INFORMATION, EVEN IF JAMS OR SUCH PERSON OR ENTITY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND REGARDLESS OF THE FORM OF ACTION. IN NO EVENT SHALL JAMS BE LIABLE FOR OR IN CONNECTION WITH ANY INFORMATION POSTED, TRANSMITTED, EXCHANGED OR RECEIVED BY OR ON BEHALF OF ANY VISITOR OR OTHER PERSON ON OR THROUGH THE ONLINE SERVICES OR SITE. IN NO EVENT SHALL THE TOTAL LIABILITY OF JAMS TO YOU OR ANY THIRD PARTY FOR ALL DAMAGES, LOSSES, AND CAUSES OF ACTION (WHETHER IN CONTRACT OR TORT, INCLUDING, BUT NOT LIMITED TO, NEGLIGENCE OR OTHERWISE) EXCEED ONE HUNDRED DOLLARS ($100).</p>
+<p><strong>Online Services Limitation of Liability</strong></p>
+<p>JAMS HEREBY DISCLAIMS ANY LIABILITY TO YOU, THE PEOPLE YOU AUTHORIZE TO ACCESS YOUR ACCOUNT, OR ANY OTHER PARTY FOR ANY DAMAGES OR INJURY THAT MAY RESULT FROM THE USE OF OR INABILITY TO USE YOUR ACCOUNT INCLUDING, BUT NOT LIMITED TO ANY DAMAGES OR INJURY CAUSED BY FAILURE OF PERFORMANCE, ERROR, OMISSION, INTERRUPTION, DELETION, DEFECT, DELAY IN OPERATION OR TRANSMISSION, COMPUTER VIRUS, COMMUNICATION SERVICE FAILURE, THEFT OR DESTRUCTION OR UNAUTHORIZED ACCESS TO, ALTERATION OF, OR USE OF THE ONLINE SERVICES UNDER ANY LEGAL THEORY OR CAUSE OF ACTION. NEITHER JAMS NOR ITS DIRECTORS, OFFICERS, MEMBERS, EMPLOYEES/ASSOCIATES, NEUTRALS, AGENTS, SUPPLIERS, OR AFFILIATES SHALL BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL OR PUNITIVE DAMAGES INCLUDING, BUT NOT LIMITED TO, THOSE ARISING OUT OF THE USE OF THE ONLINE SERVICES OR INABILITY TO GAIN ACCESS TO OR USE ANY PERSONAL INFORMATION THROUGH THE ONLINE SERVICES.</p>
+<p>Some jurisdictions do not allow the exclusion of incidental or consequential damages or limitation of liability, so the above exclusions and limitations may not apply to You.</p>
+<p><strong>Termination</strong></p>
+<p>You agree that JAMS, in its sole discretion and without notice or liability to You, may terminate Your use of, or access to, the Site or any of the Online Services at any time under certain circumstances including, but not limited to, if JAMS believes in good faith that You have violated or acted inconsistently with these Terms of Service or any applicable law, rule or regulation or that You have engaged in conduct that JAMS determines to be inappropriate or unacceptable.</p>
+<p><strong>Indemnity</strong></p>
+<p>You agree to defend, indemnify and hold JAMS and its licensors, licensees, affiliated companies, and marketing partners, together with their respective employees/associates, Neutrals, agents, directors, officers and members, harmless from and against any and all claims, actions, proceedings and suits and all related liabilities, losses, damages, judgments, settlements, penalties, fines, costs and expenses (including, without limitation, reasonable attorneys&rsquo; fees and costs) arising out of (i) Your use or misuse of the Site or any of the Online Services, (ii) Your breach or alleged breach of these Terms of Service, (iii) Your violation of any law, rule, regulation or rights of others in connection with Your use of the Site or any of the Online Services, (iv) Your use or disclosure of another person&rsquo;s personal, financial or credit information or (v) the infringement, violation or misappropriation of any copyright, trade secret, or any other intellectual property rights or the violation of any property or privacy right arising from any of the information that You post on the Site or transmit through the use of any of the Online Services.</p>
+<p><strong>Copyright Infringement</strong></p>
+<p>JAMS respects the intellectual property rights of others and JAMS asks that the Users do the same. JAMS generally does not monitor or pre-screen any content or information submitted to the Online Services by You, although JAMS reserves the right to do so in our sole discretion. If You believe a User of the Site is infringing Your copyright, please notify JAMS in accordance with the following procedure: All notifications of copyright infringement must be in writing and directed to JAMS&rsquo;s designated agent at the following address, fax number or email address:</p>
+<p>Copyright Agent<br/> JAMS<br/> 18881 Von Karman Ave.<br/> Suite #350<br/> Irvine, CA 92612<br/> 949-224-1818 Fax<br/> <a href="mailto:info@jamsadr.com?subject=JAMS%20Copyright"><strong>info@jamsadr.com</strong></a></p>
+<p>Each notification must include the following information: (i) a physical or electronic signature of a person authorized to act on behalf of the owner of an exclusive right that is allegedly infringed, (ii) identification of the copyrighted work claimed to have been infringed, or, if multiple copyrighted works at a single website are covered by a single notification, a representative list of such works at that website, (iii) identification of the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed, or access to which is to be disabled, and information reasonably sufficient to permit JAMS to locate the material, (iv) information reasonably sufficient to permit JAMS to contact the complaining party, such as an address, telephone number, and, if available, an email address at which the complaining party may be contacted; (v) a statement that the complaining party has a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law, and (vi) a statement that the information in the notification is accurate, and under penalty of perjury, that the complaining party is authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.</p>
+<p><strong>Miscellaneous</strong></p>
+<p>These Terms of Service, and any other agreement regarding the Online Services between You and JAMS, constitute the entire agreement between You and JAMS with respect to Your access and use of the Site and the Online Services and supersede all prior and contemporaneous agreements between You and JAMS. If any of the provisions of these Terms of Service is found by a court of competent jurisdiction to be invalid or unenforceable, then that provision will be construed in a manner consistent with applicable laws to reflect, as nearly as possible, the original intentions of the parties, and the remaining provisions shall remain in full force and effect. JAMS&rsquo;s failure to exercise or enforce any right or provision of these Terms of Service shall not constitute a waiver of such right or provision. The laws applicable to the interpretation of these Terms of Service shall be the laws applicable in the State of California, without regard to its conflicts of laws provisions. You agree to submit to the personal and exclusive jurisdiction of the state and federal courts located in Los Angeles County. You also agree that, in the event any dispute or claim arises out of or relating to Your use of the Site or the Online Services, You and JAMS will attempt in good faith to negotiate a written resolution of the matter directly. You agree that if the matter remains unresolved for forty-five (45) days after notification (via certified mail or personal delivery) it will be deemed a &ldquo;dispute,&rdquo; and then all parties shall join in mediation services in Los Angeles, California with a mutually agreed mediator in any attempt to resolve the dispute. Should You file any arbitration claims, or any administrative or legal actions without first having attempted to resolve the matter by mediation, then You agree that You will not be entitled to recover attorneys' fees, even if You may have been entitled to them otherwise.</p>
+<p>If You have any questions about these Terms of Service or Your rights or JAMS&rsquo;s obligations relating to any of the Online Services, please email us at&nbsp;<a href="mailto:info@jamsadr.com?subject=JAMS%20Terms%20of%20Service"><strong>info@jamsadr.com</strong></a>&nbsp;or You may contact us by postal mail at:</p>
+<p>JAMS<br/> 18881 Von Karman Ave.<br/> Suite #350<br/> Irvine, CA 92612<br/> Attn: Legal Dept.</p></div><!-- ./WYSIWYG Panel, ID: 178838 -->
+</div>
+</div>
+</section>
+<!-- ./Content Blocks List, ID: 181742 -->  </div></div></section><!-- ./Content Block Section, ID: 178896 -->
+    </div>
+  </div>
+       </div>
+ 
+</section> 
+</div><!-- Source: Bridge Template -->
+<div id="pdf_hidden" style="display:none">
+<span class="pdf_footer_1"></span>
+<span class="pdf_footer_2"></span>
+<span class="pdf_filename"></span>
+</div>
+      
+<!-- Page Id: 205377 -->
+
+    </main>
+    <footer class="footer" role="contentinfo">
+				<section class="section section-newsletter" id="section-newsletter">
+          <div class="container  section-container">
+            <h4 class="heading-large" class="section-title">Sign up for email updates</h4>
+            <p>
+              Stay updated on the latest in mediation, arbitration and dispute resolution. 
+            </p>
+            <form action="/subscribe" method="get" class="newsletter-form">
+              <div class="form-row">
+                <input type="email" required name="email" id="input-newsletter-email" placeholder="EMAIL" class="input" autocomplete="email" />
+              </div>
+              <div class="form-row">
+                <input type="submit" class="btn btn-primary" value="SUBMIT" id="btn-newsletter-submit">
+              </div>
+            </form>
+          </div>
+        </section>
+      
+      
+      
+    
+    		<section class="section social" id="section-corporate">
+          <div class="container">
+            <nav class="nav-corporate" id="nav-corporate">
+              <ul class="nav">
+                <li class="nav-item"><a class="nav-link" id="jams_nav_contact_link" href="/contact" target="_self" aria-label="Contact">Contact</a></li>
+<li class="nav-item"><a class="nav-link" id="jams_nav_submit_link" href="/submit/" target="_self" aria-label="Submit">Submit</a></li>
+<li class="nav-item"><a class="nav-link" id="jams_nav_news_link" href="/news/" target="_self" aria-label="News">News</a></li>
+<li class="nav-item"><a class="nav-link" id="jams_nav_events_link" href="/events/" target="_self" aria-label="Events">Events</a></li>
+<li class="nav-item"><a class="nav-link" id="jams_nav_careers_link" href="/careers/" target="_self" aria-label="Careers">Careers</a></li>
+
+              </ul>
+            </nav>
+            <nav class="nav-social" id="nav-social">
+										<ul class="nav">
+                      
+                      
+<li class="nav-item">
+<a href="https://www.linkedin.com/company/jams" class="nav-link" title="LinkedIn">
+<span class="social-icon">
+ <svg
+                viewBox="0 0 448 512"
+                width="16"
+                height="16"
+                aria-labelledby="icon-linkedin-title"
+                xmlns="http://www.w3.org/2000/svg">
+                <title id="icon-linkedin-title">LinkedIn</title>
+                <path
+                  fill="currentColor"
+                  d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+              </svg>
+</span>
+</a>
+</li>
+<li class="nav-item">
+<a href="https://twitter.com/JAMSADR" class="nav-link" title="Twitter">
+<span class="social-icon">
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg5" x="0px" y="0px" xml:space="preserve" viewBox="333.89 142.25 1000.78 936.69" width="18" height="18">
+                <g id="layer1" transform="translate(52.390088,-25.058597)" fill="currentColor">
+                  <path id="path1009" fill="currentColor" d="M283.94,167.31l386.39,516.64L281.5,1104h87.51l340.42-367.76L984.48,1104h297.8L874.15,558.3l361.92-390.99   h-87.51l-313.51,338.7l-253.31-338.7H283.94z M412.63,231.77h136.81l604.13,807.76h-136.81L412.63,231.77z"></path>
+                </g>
+              </svg>
+</span>
+</a>
+</li>
+<li class="nav-item">
+<a href="https://www.youtube.com/user/JAMSADRExpert" class="nav-link" title="YouTube">
+<span class="social-icon">
+     <svg
+                viewBox="0 0 576 512"
+                width="16"
+                height="16"
+                aria-labelledby="icon-youtube-title"
+                xmlns="http://www.w3.org/2000/svg">
+                <title id="icon-youtube-title">YouTube</title>
+                <path
+                  fill="currentColor"
+                  d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+              </svg>
+</span>
+</a>
+</li>
+<li class="nav-item">
+<a href="https://www.facebook.com/JAMSAlternativeDisputeResolution" class="nav-link" title="Facebook">
+<span class="social-icon">
+<svg
+                viewBox="0 0 320 512"
+                width="16"
+                height="16"
+                aria-labelledby="icon-facebook-title"
+                xmlns="http://www.w3.org/2000/svg">
+                <title id="icon-facebook-title">Facebook</title>
+                <path
+                  fill="currentColor"
+                  d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
+              </svg>
+</span>
+</a>
+</li>
+                    </ul>
+                    </nav>
+          </div>
+        </section>
+        
+    		<section class="section disclaimer" id="section-disclaimer">
+            <div class="container dir-col">
+                <div class="disclaimer-text">
+                        <p><strong>Disclaimer</strong></p>
+                                                    <p>This website is not a solicitation for business. All content on the JAMS website is intended to provide general information about JAMS and an opportunity for interested persons to contact JAMS. The content of this website is not offered as legal advice or legal opinion and it should not be relied upon for any specific situation. &nbsp;JAMS neutrals are not engaged in the practice of law and no attorney client relationship is intended.&nbsp; This website is for informational purposes only and does not constitute a complete description of JAMS services. While JAMS endeavors to keep the information updated and correct, JAMS makes no representations or warranties of any kind, express or implied, about the completeness, accuracy, or reliability of the information contained in this website.&nbsp;<a title="See More of Disclaimer" href="/disclaimer
+">SEE MORE</a></p>                                            </div>
+              			<nav class="disclaimer-nav">
+              					<ul class="nav">
+                         <li class="nav-item"><a  class="nav-link" id="jams_nav_disclaimer_link" href="/disclaimer" target="_self" aria-label="Disclaimer">Disclaimer</a></li>
+<li class="nav-item"><a  class="nav-link" id="jams_nav_consumer_case_link" href="/consumercases/" target="_self" aria-label="Consumer Case Information">Consumer Case Information</a></li>
+<li class="nav-item"><a  class="nav-link" id="jams_nav_neutrality_link" href="/neutrality" target="_self" aria-label="Neutrality">Neutrality</a></li>
+
+                          <li class="nav-item"><a class="evidon-notice-link"> </a></li>
+              					</ul>
+            				</nav>
+	  	          </div>
+   	  	   </section>
+        
+      	<section class="section copyright" id="section-copyright">
+            <div class="container">
+                    <nav class="nav-legal">
+                        <ul class="nav">
+                            <li class="nav-item"><a class="nav-link" id="jams_nav_sitemap_link" href="/sitemap" target="_self">Sitemap</a></li>
+<li class="nav-item"><a class="nav-link" id="jams_nav_privacy_center_link" href="/privacycenter" target="_self">Privacy Center</a></li>
+<li class="nav-item"><a class="nav-link" id="jams_nav_terms_of_service_link" href="/terms-of-service/" target="_self">Terms of Service</a></li>
+
+                                                    </ul>
+                    </nav>
+                        <p>Copyright 2023 JAMS. All Rights Reserved</p>
+                            
+                    <p><a href="tel:+18003525267" class="link" target="_self">800.352.5267</a></p>
+            </div>
+        </section>
+    </footer>
+     <a id="scroll-to-top" href="#top" class="scroll-to-top" role="button" title="Scroll to top">
+  <span class="sr-only">Scroll to top</span>
+  <span class="icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+  <title>Scroll to top</title>
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7">
+  </path>
+</svg>
+</span>
+</a>
+<template
+  id="env-variables"
+  data-env="live"
+  data-g2-url="https://searchg2.crownpeak.net/jams-adr-live/select?"
+  data-site-url="https://www.jamsadr.com/"
+  data-location-settings-url="/_config/locations/location-settings.json"
+  data-continent-url="/_config/locations/country-by-continent.json"
+  data-url-with-auth="https://www.jamsadr.com/"
+></template>
+    
+    <!-- Global JS Starts -->
+<script src="/_assets/core/js/aos.js" ></script>
+<script src="/_assets/core/vendor/simpleparallax.js" ></script>
+<script src="/_assets/core/js/main.js" type="module"></script>
+
+<!-- Global JS Ends -->
+
+
+
+<!-- Template (General Content) JS Starts -->
+<script src="/_assets/core/js/landing.js" type="module"></script>
+<!-- Template (General Content) JS Ends -->
+<!-- Template (General Content) JS  Top Ends -->
+
+
+    
+  </body>
+</html>
