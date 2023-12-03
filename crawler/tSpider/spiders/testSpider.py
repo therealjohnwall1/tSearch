@@ -3,6 +3,8 @@ from scrapy.linkextractors import LinkExtractor
 from pathlib import Path
 import random
 import scrapy
+import sys
+sys.path.append('../indexer')
 
 class testSpider(CrawlSpider):
     #use crawlSpider, a subclass of spider that allows crawling
@@ -20,7 +22,8 @@ class testSpider(CrawlSpider):
 
     def parse_item(self,response):
         print("**************************************************")
-        print(response.url + " Working ")
-        fileName = response.url.split("/")[-2] + '.html'
-        route = "../indexer/storage/" + fileName
-        Path(route).write_bytes(response.body)
+        print(response.url + " Working ")\
+        
+        # fileName = response.url.split("/")[-2] + '.html'
+        # route = "../indexer/storage/" + fileName
+        # Path(route).write_bytes(response.body)

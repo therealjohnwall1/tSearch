@@ -9,8 +9,8 @@ class database:
     def __init__(self):
         self.db = mysql.connector.connect( # conencting to host, change later
                 host = "127.0.0.1",
-                user = "root",
-                passwd = "6241", # change to actual password later
+                user = "",
+                passwd = "", # change to actual password later
         )
 
         self.cursor = self.db.cursor()

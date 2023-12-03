@@ -189,8 +189,8 @@ class ScrapeOpsFakeUserAgentMiddleware:
         random_user_agent = self._get_random_user_agent()
         request.headers['User-Agent'] = random_user_agent
 
-        print("\n************ AGENT HEADER ATTACHED *******\n")
-        print(request.headers['User-Agent'])
+        # print("\n************ AGENT HEADER ATTACHED *******\n")
+        # print(request.headers['User-Agent'])
 
 
 
@@ -242,8 +242,8 @@ class ScrapeOpsFakeBrowserHeaderAgentMiddleware:
         request.headers['upgrade-insecure-requests'] = random_browser_header.get('upgrade-insecure-requests')
     
 
-        print("\n************ BROWSER HEADER ATTACHED *******\n")
-        print(request.headers)
+        # print("\n************ BROWSER HEADER ATTACHED *******\n")
+        # print(request.headers)
 
 
 import threading

@@ -1,6 +1,11 @@
-multithread the url checker
-come up with index layout
 
 look into a paid rotating proxy, free shit dont work
 make aws or some cloud storage for index
-start working on closest comparison too
+
+features:
+make website
+download last visited 100 links and delete automatically
+view websites most similar too
+
+links:
+https://en.wikipedia.org/wiki/Okapi_BM25
