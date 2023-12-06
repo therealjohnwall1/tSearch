@@ -1,16 +1,19 @@
 from whoosh.index import open_dir
-import os.path
+import os.path, os
 from whoosh.index import create_in
-from whoosh.fields import Schema, TEXT
 from whoosh.qparser import QueryParser
-
+from whoosh import index
+from whoosh.fields import Schema, STORED, ID, KEYWORD, TEXT
 qry = input("Enter a query: ")
 
 path = "../indexer/theINDEX"
-
+ix = open_dir(path)
 if(os.path.exists(path)):
     ix = open_dir(path)
+    parser = QueryParser("content", ix.schema)
+    myquery = parser.parse(qry)
     with ix.searcher() as searcher:
-        query = QueryParser("content", ix.schema).parse(qry)
-        results = searcher.search(query)
+        results = searcher.search(myquery)
         print(results[0])
+else:
+    print("index dne")
