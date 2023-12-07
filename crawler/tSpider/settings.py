@@ -1,3 +1,7 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 # Scrapy settings for tSpider project
 #
 # For simplicity, this file contains only settings considered important or
@@ -19,7 +23,7 @@ NEWSPIDER_MODULE = "tSpider.spiders"
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
 
-SCRAPEOPS_API_KEY = 'e47782af-33fd-4a06-92da-2c0ffa6f6945' 
+SCRAPEOPS_API_KEY = '' + os.getenv("scrapeopKey")
 SCRAPEOPS_FAKE_USER_AGENT_ENDPOINT = 'https://headers.scrapeops.io/v1/user-agents'
 SCRAPEOPS_FAKE_USER_AGENT_ENABLED = True
 SCRAPEOPS_NUM_RESULTS = 5

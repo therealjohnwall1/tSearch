@@ -8,3 +8,4 @@ nltk
 aiohttp
 requests
 Whoosh
+python-dotenv
