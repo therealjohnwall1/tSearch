@@ -19,7 +19,8 @@ source /venv/bin/activate
 <pre>
   python3 cmds/refreshlinks.py
 </pre>
-
+> **When scraping from urls, my rotating proxies are disabled by default, you can uncomment proxies in settings**
+> **turn it on if you don't want to get ip banned, will get rotating api up soon
 #### scrape from urls
 <pre>
   python3 build.py
@@ -30,7 +31,7 @@ source /venv/bin/activate
   python3 queryParser.py
 </pre>
 
-> **When scraping from urls, my rotating proxies are disabled by default, you can uncomment proxies in settings**
+
 
 
 
