@@ -5,15 +5,12 @@ Light weight search engine that includes scrapers, indexer, and ranker.
 
 ## Startup
 
-#### activate venv
+#### run setup.sh
 <pre>
-source /venv/bin/activate
+chmod +x /setup.sh
+./setup.sh
 </pre>
 
-#### install requirements
-<pre>
-  pip install requirements.txt
-</pre>
 
 #### build targets
 <pre>
